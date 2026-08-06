@@ -209,3 +209,13 @@ Sau đó mở `http://localhost:8080`.
 - Trợ lý AI hỗ trợ phát hiện dấu hiệu cần kiểm tra.
 - Thông điệp chính về quản trị rủi ro.
 - Mở đầu Chương 10 – Điều kiện thành công.
+
+
+## v0.20 — Chương 10: Điều kiện thành công
+- Vai trò của bệnh viện.
+- Vai trò của đơn vị triển khai.
+- Mô hình phối hợp.
+- Các yếu tố quyết định thành công.
+- Cam kết triển khai.
+- Bổ sung @viennam.com cạnh khu vực thời gian.
+- Mở đầu Chương 11 – Kết luận.
