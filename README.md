@@ -172,3 +172,13 @@ Sau đó mở `http://localhost:8080`.
 - Bổ sung nguyên tắc kiểm soát rủi ro và chuyển đổi.
 - Bổ sung thông điệp chính kết thúc chương.
 - Mở đầu Chương 06 – Mô hình vận hành.
+
+
+## v0.16 — Chương 06: Mô hình vận hành
+
+- Bổ sung quy trình biên tập nội dung.
+- Làm rõ vai trò và trách nhiệm của từng đơn vị.
+- Bổ sung mô hình phân quyền.
+- Đề xuất thời gian xử lý theo mức độ ưu tiên.
+- Bổ sung màn hình theo dõi vận hành.
+- Mở đầu Chương 07 – Kiến trúc tổng thể.
