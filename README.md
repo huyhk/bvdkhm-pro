@@ -191,3 +191,11 @@ Sau đó mở `http://localhost:8080`.
 - Bảo mật và dữ liệu.
 - Khả năng mở rộng.
 - Mở đầu Chương 08.
+
+
+## v0.18 — Chương 08: Chỉ số đánh giá
+- Dashboard người dân.
+- Dashboard khoa/phòng.
+- Dashboard Ban Giám đốc.
+- Chỉ số theo từng giai đoạn.
+- Mở đầu Chương 09.
