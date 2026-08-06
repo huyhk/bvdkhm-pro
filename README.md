@@ -163,3 +163,12 @@ Sau đó mở `http://localhost:8080`.
 ### Biên tập
 - Sửa câu: “xây dựng quanh nhu cầu thực tế...” thành “xây dựng dựa trên nhu cầu thực tế của người dân...”.
 - Dùng tiêu đề và nội dung thuần Việt, ngắn gọn và phù hợp với tài liệu trình lãnh đạo.
+
+
+## v0.15 — Chương 05: Lộ trình triển khai
+
+- Bổ sung lộ trình ba giai đoạn.
+- Làm rõ phạm vi và kết quả của từng giai đoạn.
+- Bổ sung nguyên tắc kiểm soát rủi ro và chuyển đổi.
+- Bổ sung thông điệp chính kết thúc chương.
+- Mở đầu Chương 06 – Mô hình vận hành.
