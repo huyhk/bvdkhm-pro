@@ -93,3 +93,18 @@ Thứ tự Milestone 1:
 - Sắp xếp lại đúng thứ tự 03.1 → 03.14.
 - Đưa ba màn hình concept về đúng vị trí sau 03.2.
 - Không thay đổi nội dung hoặc thiết kế.
+
+
+## v0.10.2 — Chuẩn hóa thuật ngữ
+- Đổi 'Nhá hàng thiết kế' → 'Định hướng giao diện'.
+- Đổi 'Concept' → 'Định hướng' trên các màn hình trình bày.
+- Chuẩn hóa tiêu đề theo văn phong tư vấn dành cho lãnh đạo.
+
+
+## v0.11 — Định hướng trải nghiệm theo từng nhóm sử dụng
+
+- Bổ sung minh họa đăng ký khám trên thiết bị di động dành cho người dân.
+- Bổ sung trang quản trị nội dung dành cho khoa/phòng.
+- Bổ sung màn hình theo dõi tổng quan dành cho Ban Giám đốc.
+- Bổ sung sơ đồ tích hợp dành cho Phòng Công nghệ thông tin.
+- Chuẩn hóa lại số thứ tự Milestone 3.
