@@ -1931,3 +1931,92 @@
 .mobile-registration-layout .booking-next{
   margin-top:12px;
 }
+
+
+/* =========================================================
+   v1.0 RC3 — Refine mobile specialty cards
+   ========================================================= */
+.mobile-registration-layout .booking-options{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:9px;
+  margin-top:12px;
+}
+.mobile-registration-layout .booking-options button{
+  display:grid;
+  grid-template-columns:42px minmax(0,1fr) 18px;
+  align-items:center;
+  column-gap:12px;
+  width:100%;
+  min-height:76px;
+  padding:10px 12px;
+  border-radius:15px;
+  text-align:left;
+}
+.mobile-registration-layout .booking-option-icon{
+  grid-column:1;
+  grid-row:1;
+  width:40px;
+  height:40px;
+  margin:0;
+  border-radius:12px;
+  display:grid;
+  place-items:center;
+  align-self:center;
+  background:#eaf4fd;
+  color:#0b5cab;
+  font-size:16px;
+  font-weight:900;
+}
+.mobile-registration-layout .booking-option-copy{
+  grid-column:2;
+  grid-row:1;
+  display:flex;
+  min-width:0;
+  flex-direction:column;
+  justify-content:center;
+  gap:4px;
+  align-self:center;
+}
+.mobile-registration-layout .booking-option-copy b{
+  display:block;
+  margin:0;
+  color:#244e6c;
+  font-size:12px;
+  line-height:1.2;
+  font-weight:900;
+  white-space:normal;
+}
+.mobile-registration-layout .booking-option-copy small{
+  display:block;
+  margin:0;
+  color:#6d879a;
+  font-size:9px;
+  line-height:1.25;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.mobile-registration-layout .booking-option-arrow{
+  grid-column:3;
+  grid-row:1;
+  width:auto;
+  height:auto;
+  margin:0;
+  padding:0;
+  align-self:center;
+  background:transparent;
+  color:#0b5cab;
+  font-size:23px;
+  font-weight:700;
+}
+.mobile-registration-layout .booking-options button.selected{
+  background:#eef7ff;
+  border-color:#0b5cab;
+}
+.mobile-registration-layout .booking-options button.selected .booking-option-icon{
+  background:#dceeff;
+}
+.mobile-registration-layout .booking-next{
+  margin-top:12px;
+}

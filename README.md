@@ -248,3 +248,12 @@ Không bổ sung nội dung mới trong giai đoạn RC, trừ lỗi chính tả
 - Khắc phục xung đột CSS khiến danh sách chuyên khoa hiển thị thành ba cột hẹp.
 - Chuyển danh sách chuyên khoa về một cột đúng với giao diện điện thoại.
 - Tăng nhẹ chiều rộng khung điện thoại và tối ưu khoảng cách, cỡ chữ.
+
+
+## v1.0 RC3 — Tinh chỉnh giao diện chọn chuyên khoa
+
+- Tăng kích thước tên chuyên khoa và phần mô tả.
+- Giảm khoảng cách thừa do style cũ.
+- Căn tên chuyên khoa ngang hàng với biểu tượng.
+- Bổ sung dấu điều hướng bên phải mỗi lựa chọn.
+- Giới hạn CSS trong riêng mô hình đăng ký khám trên thiết bị di động.
