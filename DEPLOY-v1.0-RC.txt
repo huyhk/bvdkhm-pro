@@ -1,0 +1,18 @@
+BVDKHocMon Digital Proposal v1.0 RC
+
+Cập nhật GitHub:
+git add .
+git commit -m "v1.0-rc1: finalize release candidate"
+git push origin main
+git tag -a v1.0-rc1 -m "BVDK Hoc Mon Proposal v1.0 RC1"
+git push origin v1.0-rc1
+
+Cập nhật WebServer:
+git pull origin main
+
+Kiểm tra sau triển khai:
+- Ctrl+F5
+- Mục lục và số trang
+- Điều hướng bàn phím
+- Trang bìa và trang Trân trọng cảm ơn
+- Hiển thị trên Full HD

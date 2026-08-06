@@ -227,3 +227,18 @@ Sau đó mở `http://localhost:8080`.
 - Bước tiếp theo.
 - Trang Trân trọng cảm ơn.
 - Ghi đầy đủ đơn vị lập tài liệu: Công ty TNHH Giải Pháp Công Nghệ Viễn Nam.
+
+
+## v1.0 RC — Ứng viên phát hành
+
+Phiên bản này đóng băng nội dung và tập trung vào chất lượng phát hành:
+
+- Đồng bộ metadata và phiên bản.
+- Dùng `manifest.json` làm nguồn thứ tự chương duy nhất.
+- Cải thiện điều hướng bàn phím, hash URL và chế độ toàn màn hình.
+- Tách nổi bật các trang mở chương trong mục lục.
+- Bổ sung thông tin đơn vị lập tài liệu tại trang bìa và trang cuối.
+- Loại bỏ các tệp hướng dẫn triển khai cũ khỏi gói bàn giao.
+- Thêm danh sách kiểm tra trước khi phát hành chính thức.
+
+Không bổ sung nội dung mới trong giai đoạn RC, trừ lỗi chính tả, bố cục hoặc vận hành.
