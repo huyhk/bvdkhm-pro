@@ -266,3 +266,11 @@ Không bổ sung nội dung mới trong giai đoạn RC, trừ lỗi chính tả
 - Tăng nhẹ chiều sâu thị giác cho trang bìa, kết luận và trang cảm ơn.
 - Dùng ảnh thật đã có trong bộ tài liệu; không thêm ảnh minh họa bên ngoài.
 - Giữ độ tương phản chữ và khả năng trình chiếu trên màn hình lớn.
+
+
+## v1.0 RC5 — Sửa lỗi co hẹp tên chuyên khoa ở trang 18
+
+- Loại bỏ chiều rộng và chiều cao cố định bị kế thừa từ quy tắc `span` dùng chung.
+- Khôi phục vùng nội dung tên khoa về chiều rộng linh hoạt.
+- Giữ tên khoa và mô tả thẳng hàng với biểu tượng.
+- Tăng nhẹ cỡ chữ nhưng vẫn đảm bảo vừa khung điện thoại.
