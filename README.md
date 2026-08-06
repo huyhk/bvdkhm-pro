@@ -150,3 +150,16 @@ Sau đó mở `http://localhost:8080`.
 - Git diff nhỏ hơn.
 - Giảm nguy cơ đảo thứ tự khi chèn slide.
 - Website triển khai vẫn là một trải nghiệm trình chiếu liền mạch.
+
+
+## v0.14 — Chương 04: Giá trị mang lại
+
+### Nội dung hoàn thiện
+- Giá trị tổng thể của Cổng thông tin điện tử.
+- Giá trị theo từng nhóm: người dân, khoa/phòng, Ban Giám đốc và Phòng Công nghệ thông tin.
+- Giá trị dài hạn: Website → Cổng thông tin điện tử → Dịch vụ số → Nền tảng số.
+- Thông điệp chính kết thúc chương.
+
+### Biên tập
+- Sửa câu: “xây dựng quanh nhu cầu thực tế...” thành “xây dựng dựa trên nhu cầu thực tế của người dân...”.
+- Dùng tiêu đề và nội dung thuần Việt, ngắn gọn và phù hợp với tài liệu trình lãnh đạo.

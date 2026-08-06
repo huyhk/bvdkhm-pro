@@ -982,3 +982,255 @@
 @keyframes deck-loader{
   to{transform:rotate(360deg)}
 }
+
+
+/* =========================================================
+   v0.14 — Chương 04: Giá trị mang lại
+   ========================================================= */
+.value-chapter-opener{
+  background:
+    radial-gradient(circle at 82% 20%,rgba(20,184,166,.16),transparent 28%),
+    radial-gradient(circle at 92% 74%,rgba(0,91,172,.11),transparent 30%),
+    linear-gradient(145deg,#f8fbfd,#eef5f8);
+}
+.value-ecosystem{
+  background:
+    radial-gradient(circle at 50% 52%,rgba(0,166,214,.10),transparent 25%),
+    linear-gradient(145deg,#f8fbfd,#eef5f8);
+}
+.value-map{
+  position:relative;
+  display:grid;
+  grid-template-columns:1fr 250px 1fr;
+  grid-template-rows:1fr 1fr;
+  gap:20px 34px;
+  align-items:center;
+  margin:3.5vh auto 0;
+  max-width:1120px;
+}
+.value-node{
+  min-height:175px;
+  padding:22px;
+  border-radius:22px;
+  background:#fff;
+  border:1px solid var(--line);
+  box-shadow:0 16px 44px rgba(15,54,97,.08);
+}
+.value-node span{
+  color:var(--blue);
+  font-size:10px;
+  font-weight:900;
+  letter-spacing:.13em;
+}
+.value-node strong{
+  display:block;
+  margin:15px 0 8px;
+  font-size:20px;
+  color:#153750;
+}
+.value-node p{
+  margin:0;
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.5;
+}
+.node-citizen{grid-column:1;grid-row:1}
+.node-department{grid-column:1;grid-row:2}
+.node-leadership{grid-column:3;grid-row:1}
+.node-it{grid-column:3;grid-row:2}
+.value-center{
+  grid-column:2;
+  grid-row:1 / 3;
+  width:235px;
+  height:235px;
+  display:grid;
+  place-items:center;
+  align-content:center;
+  text-align:center;
+  border-radius:50%;
+  background:
+    radial-gradient(circle at center,#fff 0 57%,transparent 58%),
+    conic-gradient(#0b5cab,#00a6d6,#14b8a6,#0b5cab);
+  box-shadow:0 28px 70px rgba(0,91,172,.17);
+}
+.value-center img{
+  width:66px;
+  height:62px;
+  object-fit:contain;
+}
+.value-center strong{
+  display:block;
+  max-width:150px;
+  margin-top:10px;
+  font-size:13px;
+  line-height:1.25;
+  color:#153750;
+}
+.value-center span{
+  margin-top:5px;
+  font-size:10px;
+  color:#64748b;
+}
+.chapter-key-message{
+  width:max-content;
+  max-width:100%;
+  margin:24px auto 0;
+  padding:13px 18px;
+  border-radius:999px;
+  background:#eaf4fd;
+  border:1px solid #cfe6f7;
+  color:#16496d;
+  font-size:14px;
+  font-weight:850;
+}
+
+.stakeholder-value-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+  margin-top:4vh;
+}
+.stakeholder-value-grid article{
+  min-height:220px;
+  padding:24px;
+  border-radius:23px;
+  background:rgba(255,255,255,.075);
+  border:1px solid rgba(255,255,255,.15);
+}
+.stakeholder-head{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+.stakeholder-head span{
+  width:44px;
+  height:44px;
+  display:grid;
+  place-items:center;
+  border-radius:13px;
+  background:#7dd3fc;
+  color:#07345e;
+  font-size:11px;
+  font-weight:950;
+}
+.stakeholder-head strong{
+  color:#fff;
+  font-size:23px;
+}
+.stakeholder-value-grid ul{
+  margin:22px 0 0;
+  padding-left:20px;
+}
+.stakeholder-value-grid li{
+  margin:11px 0;
+  color:#d6e8f5;
+  font-size:15px;
+  line-height:1.4;
+}
+
+.long-term-value{
+  background:
+    radial-gradient(circle at 80% 20%,rgba(245,158,11,.11),transparent 28%),
+    linear-gradient(145deg,#f8fbfd,#eef5f8);
+}
+.value-evolution{
+  display:grid;
+  grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;
+  gap:14px;
+  align-items:stretch;
+  margin-top:5vh;
+}
+.value-evolution article{
+  min-height:260px;
+  padding:23px;
+  border-radius:22px;
+  background:#fff;
+  border:1px solid var(--line);
+  box-shadow:0 16px 42px rgba(15,54,97,.07);
+}
+.value-evolution article span{
+  width:42px;
+  height:42px;
+  display:grid;
+  place-items:center;
+  border-radius:13px;
+  background:#eaf4fd;
+  color:var(--blue);
+  font-size:10px;
+  font-weight:900;
+}
+.value-evolution article strong{
+  display:block;
+  margin:25px 0 10px;
+  color:#153750;
+  font-size:21px;
+  line-height:1.25;
+}
+.value-evolution article p{
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.5;
+}
+.value-evolution > i{
+  align-self:center;
+  color:var(--blue);
+  font-size:25px;
+  font-style:normal;
+  font-weight:950;
+}
+.long-term-note{
+  margin-top:25px;
+  padding:16px 20px;
+  border-radius:17px;
+  background:#fff7e6;
+  border:1px solid #f2d6a0;
+  color:#7d5610;
+  text-align:center;
+  font-size:15px;
+  font-weight:800;
+}
+.value-closing{
+  background:
+    radial-gradient(circle at 82% 18%,rgba(20,184,166,.18),transparent 29%),
+    radial-gradient(circle at 16% 82%,rgba(0,91,172,.09),transparent 30%),
+    linear-gradient(145deg,#f8fbfd,#eef5f8);
+}
+.value-closing .transition-wrap{
+  max-width:1180px;
+}
+.value-closing .transition-wrap h2{
+  max-width:1120px;
+  font-size:clamp(39px,4.7vw,68px);
+  line-height:1.1;
+}
+
+@media(max-width:980px){
+  .value-map{
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:auto;
+  }
+  .value-center{
+    grid-column:1 / 3;
+    grid-row:auto;
+    justify-self:center;
+  }
+  .node-citizen,.node-department,.node-leadership,.node-it{
+    grid-column:auto;
+    grid-row:auto;
+  }
+  .value-evolution{
+    grid-template-columns:1fr 1fr;
+  }
+  .value-evolution > i{display:none}
+}
+@media(max-width:720px){
+  .stakeholder-value-grid,
+  .value-evolution,
+  .value-map{
+    grid-template-columns:1fr;
+  }
+  .value-center{
+    grid-column:1;
+  }
+  .chapter-key-message{width:auto}
+}
