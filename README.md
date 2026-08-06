@@ -108,3 +108,10 @@ Thứ tự Milestone 1:
 - Bổ sung màn hình theo dõi tổng quan dành cho Ban Giám đốc.
 - Bổ sung sơ đồ tích hợp dành cho Phòng Công nghệ thông tin.
 - Chuẩn hóa lại số thứ tự Milestone 3.
+
+
+## v0.12 — Định hướng ứng dụng trí tuệ nhân tạo
+- Bổ sung trợ lý thông tin cho người dân.
+- Bổ sung trợ lý biên tập nội dung cho khoa/phòng.
+- Bổ sung nguyên tắc: đúng nguồn, có kiểm soát, con người quyết định.
+- Không đề xuất AI cho chẩn đoán, kê đơn hoặc quyết định chuyên môn.
