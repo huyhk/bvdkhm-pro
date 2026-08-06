@@ -242,3 +242,9 @@ Phiên bản này đóng băng nội dung và tập trung vào chất lượng p
 - Thêm danh sách kiểm tra trước khi phát hành chính thức.
 
 Không bổ sung nội dung mới trong giai đoạn RC, trừ lỗi chính tả, bố cục hoặc vận hành.
+
+## v1.0 RC2 — Sửa màn hình đăng ký khám trên thiết bị di động
+
+- Khắc phục xung đột CSS khiến danh sách chuyên khoa hiển thị thành ba cột hẹp.
+- Chuyển danh sách chuyên khoa về một cột đúng với giao diện điện thoại.
+- Tăng nhẹ chiều rộng khung điện thoại và tối ưu khoảng cách, cỡ chữ.
