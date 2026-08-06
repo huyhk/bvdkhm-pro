@@ -59,3 +59,13 @@ Thứ tự Milestone 1:
 - Loại bỏ hiện tượng chớp nền khi chuyển giữa trang sáng và trang tối.
 - Bổ sung chuyển động rất nhẹ theo trục dọc và scale nhỏ.
 - Hỗ trợ `prefers-reduced-motion` cho người nhạy cảm với hiệu ứng.
+
+
+## v0.9.2 — Địa phương hóa BVĐK Khu vực Hóc Môn
+
+- Thay minh họa chung ở trang bìa bằng hình ảnh cơ sở mới.
+- Bổ sung logo tạm lấy từ biển hiệu công khai.
+- Đưa các dấu ấn cơ sở mới vào phần bối cảnh.
+- Thay ví dụ chung bằng đăng ký khám, khoa/phòng, liên hệ và nhóm nội dung đang có.
+- Bổ sung ảnh khu tiếp nhận, hành lang và nhận diện bệnh viện.
+- Điều chỉnh phần chuyên khoa theo tên gọi đang xuất hiện trên hệ thống đăng ký khám.
