@@ -86,3 +86,10 @@ Thứ tự Milestone 1:
 - Bổ sung concept chuyên khoa và hồ sơ bác sĩ.
 - Tất cả concept dùng logo và hình ảnh thật của BVĐK Khu vực Hóc Môn.
 - Giữ rõ trạng thái “định hướng ban đầu”, chưa phải thiết kế cuối.
+
+
+## v0.10.1 — Sửa thứ tự Milestone 3
+
+- Sắp xếp lại đúng thứ tự 03.1 → 03.14.
+- Đưa ba màn hình concept về đúng vị trí sau 03.2.
+- Không thay đổi nội dung hoặc thiết kế.
