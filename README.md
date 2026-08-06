@@ -219,3 +219,11 @@ Sau đó mở `http://localhost:8080`.
 - Cam kết triển khai.
 - Bổ sung @viennam.com cạnh khu vực thời gian.
 - Mở đầu Chương 11 – Kết luận.
+
+
+## v0.21 — Chương 11: Kết luận
+- Tổng kết đề án.
+- Tầm nhìn dài hạn.
+- Bước tiếp theo.
+- Trang Trân trọng cảm ơn.
+- Ghi đầy đủ đơn vị lập tài liệu: Công ty TNHH Giải Pháp Công Nghệ Viễn Nam.
