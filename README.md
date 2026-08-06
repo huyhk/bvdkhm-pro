@@ -199,3 +199,13 @@ Sau đó mở `http://localhost:8080`.
 - Dashboard Ban Giám đốc.
 - Chỉ số theo từng giai đoạn.
 - Mở đầu Chương 09.
+
+
+## v0.19 — Chương 09: Quản trị rủi ro
+- Các nhóm rủi ro chính.
+- Ma trận mức độ ưu tiên.
+- Chu trình kiểm soát rủi ro.
+- Tình huống minh họa.
+- Trợ lý AI hỗ trợ phát hiện dấu hiệu cần kiểm tra.
+- Thông điệp chính về quản trị rủi ro.
+- Mở đầu Chương 10 – Điều kiện thành công.
