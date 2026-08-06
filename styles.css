@@ -2020,3 +2020,93 @@
 .mobile-registration-layout .booking-next{
   margin-top:12px;
 }
+
+
+/* =========================================================
+   v1.0 RC4 — Hospital visual identity / watermark backgrounds
+   ========================================================= */
+.slide.hospital-watermark{
+  position:absolute;
+  isolation:isolate;
+  overflow:hidden;
+}
+.slide.hospital-watermark::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-2;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  opacity:.065;
+  filter:grayscale(18%) saturate(72%) contrast(92%);
+  transform:scale(1.025);
+  pointer-events:none;
+}
+.slide.hospital-watermark::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background:
+    linear-gradient(105deg,rgba(248,251,253,.98) 0%,rgba(248,251,253,.94) 42%,rgba(238,245,248,.82) 100%),
+    radial-gradient(circle at 82% 18%,rgba(0,166,214,.10),transparent 32%),
+    radial-gradient(circle at 12% 82%,rgba(20,184,166,.07),transparent 28%);
+  pointer-events:none;
+}
+.slide.hospital-watermark.dark::after{
+  background:
+    linear-gradient(105deg,rgba(7,30,55,.97) 0%,rgba(9,42,75,.94) 48%,rgba(7,52,94,.88) 100%),
+    radial-gradient(circle at 82% 18%,rgba(125,211,252,.12),transparent 30%);
+}
+.slide.watermark-hospital-building::before{
+  background-image:url("assets/images/hospital/hospital-building.webp");
+  background-position:center 48%;
+}
+.slide.watermark-hospital-sign::before{
+  background-image:url("assets/images/hospital/hospital-sign.webp");
+  background-position:center 42%;
+}
+.slide.watermark-hospital-corridor::before{
+  background-image:url("assets/images/hospital/hospital-corridor.webp");
+  background-position:center 50%;
+}
+.slide.watermark-hospital-reception::before{
+  background-image:url("assets/images/hospital/hospital-reception.webp");
+  background-position:center 46%;
+}
+
+/* Mobile mockup: tăng chiều sâu nhưng vẫn giữ điện thoại là điểm nhấn. */
+.slide.mobile-registration-layout.hospital-watermark::before{
+  opacity:.085;
+  background-size:cover;
+  background-position:center 56%;
+}
+.slide.mobile-registration-layout.hospital-watermark::after{
+  background:
+    linear-gradient(90deg,rgba(248,251,253,.985) 0%,rgba(248,251,253,.95) 46%,rgba(238,245,248,.72) 100%),
+    radial-gradient(circle at 78% 34%,rgba(0,166,214,.11),transparent 34%);
+}
+
+/* Cover / closing: nền ảnh rõ hơn một chút để tạo bản sắc. */
+.slide.cover.hospital-watermark::before,
+.slide.thank-you-slide.hospital-watermark::before{
+  opacity:.09;
+}
+.slide.thank-you-slide.hospital-watermark::after{
+  background:
+    linear-gradient(102deg,rgba(248,251,253,.985) 0%,rgba(248,251,253,.95) 50%,rgba(238,245,248,.76) 100%),
+    radial-gradient(circle at 84% 20%,rgba(0,166,214,.12),transparent 30%);
+}
+
+/* Không để lớp watermark che các thành phần điều khiển hoặc làm giảm độ rõ chữ. */
+.slide.hospital-watermark > *{
+  position:relative;
+  z-index:1;
+}
+@media(max-width:760px){
+  .slide.hospital-watermark::before{
+    opacity:.045;
+    background-position:center;
+  }
+}

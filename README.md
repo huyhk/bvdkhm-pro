@@ -257,3 +257,12 @@ Không bổ sung nội dung mới trong giai đoạn RC, trừ lỗi chính tả
 - Căn tên chuyên khoa ngang hàng với biểu tượng.
 - Bổ sung dấu điều hướng bên phải mỗi lựa chọn.
 - Giới hạn CSS trong riêng mô hình đăng ký khám trên thiết bị di động.
+
+
+## v1.0 RC4 — Tăng bản sắc thị giác bệnh viện
+
+- Bổ sung ảnh bệnh viện mờ làm lớp nền cho các trang mở chương.
+- Áp dụng nền riêng cho trang mô phỏng đăng ký khám trên thiết bị di động.
+- Tăng nhẹ chiều sâu thị giác cho trang bìa, kết luận và trang cảm ơn.
+- Dùng ảnh thật đã có trong bộ tài liệu; không thêm ảnh minh họa bên ngoài.
+- Giữ độ tương phản chữ và khả năng trình chiếu trên màn hình lớn.
