@@ -69,3 +69,10 @@ Thứ tự Milestone 1:
 - Thay ví dụ chung bằng đăng ký khám, khoa/phòng, liên hệ và nhóm nội dung đang có.
 - Bổ sung ảnh khu tiếp nhận, hành lang và nhận diện bệnh viện.
 - Điều chỉnh phần chuyên khoa theo tên gọi đang xuất hiện trên hệ thống đăng ký khám.
+
+
+## v0.9.3 — Sửa logo chính thức
+
+- Thay logo cắt từ ảnh biển hiệu bằng file PNG gốc từ website bệnh viện.
+- Giữ nguyên tỷ lệ logo, bỏ bo tròn và hiệu ứng làm sai nhận diện.
+- Không thay đổi nội dung hoặc thứ tự trình bày.

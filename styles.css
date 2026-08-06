@@ -466,3 +466,24 @@
   .local-home-context{grid-template-columns:1fr}
   .local-home-context img{width:100%;height:160px}
 }
+
+
+/* =========================================================
+   v0.9.3 — Logo chính thức BVĐK Khu vực Hóc Môn
+   ========================================================= */
+.brand .hospital-logo{
+  width:64px;
+  height:60px;
+  object-fit:contain;
+  object-position:center;
+  border-radius:0;
+  padding:0;
+  background:transparent;
+  box-shadow:none;
+}
+@media(max-width:720px){
+  .brand .hospital-logo{
+    width:52px;
+    height:49px;
+  }
+}

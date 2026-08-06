@@ -10,7 +10,7 @@ liên quan đến Bệnh viện Đa khoa Khu vực Hóc Môn, dùng cho mục đ
 - `hospital-corridor.webp` — không gian bên trong cơ sở mới.
 - `hospital-reception.webp` — khu tiếp nhận người bệnh.
 - `hospital-sign.webp` — biển hiệu và nhận diện bệnh viện.
-- `hospital-logo.png` — ảnh cắt từ biển hiệu công khai, chỉ dùng tạm thời trong proposal.
+- `hospital-logo.png` — file logo gốc từ website chính thức của bệnh viện: `https://bvdkhocmon.vn/Templates/bvdkhocmon/Content/Images/logo.png`.
 
 ## Lưu ý trước khi phát hành chính thức
 
