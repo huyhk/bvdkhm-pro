@@ -76,3 +76,13 @@ Thứ tự Milestone 1:
 - Thay logo cắt từ ảnh biển hiệu bằng file PNG gốc từ website bệnh viện.
 - Giữ nguyên tỷ lệ logo, bỏ bo tròn và hiệu ứng làm sai nhận diện.
 - Không thay đổi nội dung hoặc thứ tự trình bày.
+
+
+## v0.10 — Nhá hàng thiết kế tương lai
+
+- Bổ sung màn hình mở đầu phần concept.
+- Bổ sung concept trang chủ desktop.
+- Bổ sung concept mobile.
+- Bổ sung concept chuyên khoa và hồ sơ bác sĩ.
+- Tất cả concept dùng logo và hình ảnh thật của BVĐK Khu vực Hóc Môn.
+- Giữ rõ trạng thái “định hướng ban đầu”, chưa phải thiết kế cuối.

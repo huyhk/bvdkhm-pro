@@ -487,3 +487,227 @@
     height:49px;
   }
 }
+
+
+/* =========================================================
+   v0.10 — Nhá hàng thiết kế website tương lai
+   ========================================================= */
+.concept-teaser{
+  background:
+    radial-gradient(circle at 80% 14%,rgba(0,163,224,.14),transparent 28%),
+    linear-gradient(145deg,#f8fbfd,#eef5f8);
+}
+.teaser-stage{
+  display:grid;
+  grid-template-columns:.82fr 1.35fr;
+  gap:44px;
+  align-items:center;
+  margin-top:4vh;
+}
+.teaser-copy span,.concept-label{
+  color:var(--blue);
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:.14em;
+}
+.teaser-copy strong{
+  display:block;
+  margin:20px 0 18px;
+  font-size:31px;
+  line-height:1.28;
+}
+.teaser-copy p{
+  color:var(--muted);
+  font-size:17px;
+  line-height:1.6;
+}
+.teaser-devices{
+  position:relative;
+  min-height:500px;
+}
+.device{
+  background:#111827;
+  box-shadow:0 34px 80px rgba(15,54,97,.25);
+}
+.desktop-device{
+  position:absolute;
+  left:0;right:80px;top:35px;
+  border-radius:22px;
+  padding:10px;
+}
+.device-bar{
+  height:28px;
+  display:flex;align-items:center;gap:6px;
+  padding:0 6px;
+}
+.device-bar i,.browser-dots i{
+  width:8px;height:8px;border-radius:50%;
+  background:#64748b;
+}
+.mini-home{
+  background:#f8fafc;
+  border-radius:14px;
+  overflow:hidden;
+}
+.mini-top{
+  display:flex;align-items:center;gap:10px;
+  padding:11px 15px;
+  font-size:9px;font-weight:900;color:#0b5cab;
+}
+.mini-top img{width:26px;height:26px;object-fit:contain}
+.mini-hero{
+  display:grid;grid-template-columns:1.05fr 1fr;
+  align-items:center;
+  background:#eaf4fd;
+  min-height:210px;
+}
+.mini-hero > div{padding:24px}
+.mini-hero b{font-size:20px;line-height:1.25;color:#163047}
+.mini-hero small{display:block;margin-top:14px;color:#64748b}
+.mini-hero img{width:100%;height:210px;object-fit:cover}
+.mini-actions{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  gap:8px;padding:12px;
+}
+.mini-actions em{
+  font-style:normal;text-align:center;
+  padding:10px 5px;border-radius:10px;
+  background:#fff;border:1px solid #dce8f1;
+  font-size:9px;font-weight:850;color:#31536d;
+}
+.mobile-device{
+  position:absolute;
+  width:176px;height:360px;
+  right:0;bottom:0;
+  border-radius:30px;
+  padding:8px;
+  z-index:2;
+}
+.mobile-notch{
+  position:absolute;top:8px;left:50%;transform:translateX(-50%);
+  width:70px;height:14px;border-radius:0 0 10px 10px;background:#111827;z-index:2;
+}
+.mobile-home{
+  height:100%;border-radius:23px;background:#f8fafc;
+  padding:25px 14px 14px;overflow:hidden;
+}
+.mobile-logo{width:38px;height:36px;object-fit:contain}
+.mobile-home strong{display:block;margin:18px 0;font-size:19px;line-height:1.25;color:#153750}
+.mobile-buttons{display:grid;gap:8px}
+.mobile-buttons span{
+  padding:10px;border-radius:10px;background:#fff;
+  border:1px solid #dce8f1;font-size:10px;font-weight:800;color:#0b5cab;
+}
+.mobile-photo{width:100%;height:100px;object-fit:cover;border-radius:13px;margin-top:12px}
+
+.browser-concept{
+  margin-top:3vh;
+  background:#111827;
+  border-radius:26px;
+  padding:10px;
+  box-shadow:0 30px 70px rgba(15,54,97,.18);
+}
+.browser-top{
+  height:34px;
+  display:grid;
+  grid-template-columns:100px 1fr 100px;
+  align-items:center;
+}
+.browser-dots{display:flex;gap:6px;padding-left:8px}
+.browser-url{
+  justify-self:center;
+  min-width:280px;
+  padding:6px 16px;border-radius:999px;
+  background:#1f2937;color:#94a3b8;
+  text-align:center;font-size:10px;
+}
+.concept-site{background:#f8fafc;border-radius:17px;overflow:hidden}
+.concept-site nav{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:14px 24px;background:#fff;
+}
+.concept-brand{display:flex;align-items:center;gap:10px}
+.concept-brand img{width:38px;height:36px;object-fit:contain}
+.concept-brand span{display:flex;flex-direction:column}
+.concept-brand b{font-size:10px;color:#0b5cab}
+.concept-brand small{font-size:8px;color:#64748b}
+.concept-nav{font-size:10px;color:#47667d}
+.concept-hero{
+  display:grid;grid-template-columns:1.05fr 1fr;
+  min-height:300px;background:#eaf4fd;
+}
+.concept-hero-copy{padding:38px 36px}
+.concept-hero-copy > span{font-size:9px;letter-spacing:.14em;font-weight:900;color:#0b5cab}
+.concept-hero-copy h3{font-size:32px;line-height:1.08;margin:15px 0;color:#153750}
+.concept-hero-copy p{font-size:12px;line-height:1.5;color:#64748b;max-width:400px}
+.concept-hero-copy button,.doctor-info button{
+  border:0;border-radius:999px;background:#0b5cab;color:#fff;
+  padding:10px 16px;font-weight:850;font-size:10px;margin-right:7px;
+}
+.concept-hero-copy button.ghost{background:#fff;color:#0b5cab;border:1px solid #b9d8ed}
+.concept-hero > img{width:100%;height:300px;object-fit:cover}
+.concept-shortcuts{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  gap:10px;padding:14px;
+}
+.concept-shortcuts article{
+  display:flex;align-items:center;gap:9px;
+  padding:13px;border-radius:13px;background:#fff;border:1px solid #dce8f1;
+}
+.concept-shortcuts b{
+  width:27px;height:27px;display:grid;place-items:center;border-radius:8px;
+  background:#eaf4fd;color:#0b5cab;font-size:9px;
+}
+.concept-shortcuts span{font-size:10px;font-weight:800;color:#31536d}
+
+.dual-concept{
+  display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:4vh;
+}
+.specialty-concept,.doctor-concept{
+  border-radius:26px;border:1px solid rgba(255,255,255,.16);
+  background:rgba(255,255,255,.07);
+  min-height:365px;
+}
+.specialty-concept{padding:32px}
+.specialty-concept h3,.doctor-info h3{font-size:28px;margin:16px 0 12px;color:#fff}
+.specialty-concept p,.doctor-info p,.doctor-info li{color:#d6e8f5;line-height:1.5}
+.specialty-tags{display:flex;flex-wrap:wrap;gap:8px;margin:28px 0}
+.specialty-tags span{
+  padding:9px 12px;border-radius:999px;background:rgba(125,211,252,.12);
+  color:#bfe8ff;font-size:11px;border:1px solid rgba(125,211,252,.22);
+}
+.specialty-cta{font-weight:900;color:#7dd3fc}
+.doctor-concept{
+  display:grid;grid-template-columns:.8fr 1.2fr;overflow:hidden;
+}
+.doctor-photo-wrap{
+  display:grid;place-items:center;
+  background:linear-gradient(145deg,#dff2ff,#9dd8f7);
+}
+.doctor-avatar{
+  width:140px;height:140px;border-radius:50%;
+  display:grid;place-items:center;
+  background:#fff;color:#0b5cab;font-size:42px;font-weight:950;
+  box-shadow:0 20px 50px rgba(3,61,114,.2);
+}
+.doctor-info{padding:28px}
+.doctor-info ul{padding-left:18px;margin:18px 0}
+.doctor-info button{margin-top:10px}
+.concept-insight{
+  margin-top:22px;padding:16px 18px;border-radius:16px;
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.13);
+  color:#dcecf7;font-size:16px;
+}
+
+@media(max-width:1000px){
+  .teaser-stage,.dual-concept{grid-template-columns:1fr}
+  .teaser-devices{min-height:460px}
+}
+@media(max-width:760px){
+  .browser-url{min-width:160px}
+  .concept-site nav{display:none}
+  .concept-hero{grid-template-columns:1fr}
+  .concept-hero > img{height:180px}
+  .concept-shortcuts{grid-template-columns:1fr 1fr}
+  .doctor-concept{grid-template-columns:1fr}
+}
