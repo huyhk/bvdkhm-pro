@@ -51,3 +51,11 @@ Thứ tự Milestone 1:
 ### Mở Milestone 4
 - Bổ sung trang mở đầu “Giá trị và lộ trình triển khai”.
 - Chuẩn hóa các phần giá trị, lộ trình và kiến nghị bước tiếp theo.
+
+
+## v0.9.1 — Chuyển trang dịu mắt
+
+- Thay cơ chế `display: none/block` bằng cross-fade giữa các màn hình.
+- Loại bỏ hiện tượng chớp nền khi chuyển giữa trang sáng và trang tối.
+- Bổ sung chuyển động rất nhẹ theo trục dọc và scale nhỏ.
+- Hỗ trợ `prefers-reduced-motion` cho người nhạy cảm với hiệu ứng.
