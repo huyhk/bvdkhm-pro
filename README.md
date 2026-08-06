@@ -115,3 +115,38 @@ Thứ tự Milestone 1:
 - Bổ sung trợ lý biên tập nội dung cho khoa/phòng.
 - Bổ sung nguyên tắc: đúng nguồn, có kiểm soát, con người quyết định.
 - Không đề xuất AI cho chẩn đoán, kê đơn hoặc quyết định chuyên môn.
+
+
+## v0.13 — Tách nội dung theo chương
+
+`index.html` hiện chỉ giữ vai trò khung trình chiếu. Nội dung được chia thành:
+
+```text
+sections/
+├── 01-gioi-thieu-de-an.html
+├── 02-boi-canh-va-co-hoi.html
+├── 03-dinh-huong-giai-phap.html
+├── 04-trai-nghiem-theo-doi-tuong.html
+├── 05-ung-dung-tri-tue-nhan-tao.html
+├── 06-chi-tiet-giai-phap.html
+├── 07-gia-tri-va-lo-trinh.html
+└── manifest.json
+```
+
+`loader.js` tải các chương theo thứ tự rồi mới khởi động `app.js`.
+
+### Xem trên máy cá nhân
+
+Do trình duyệt chặn `fetch()` khi mở trực tiếp bằng `file://`, hãy chạy:
+
+- Windows: `preview.bat`
+- Linux/macOS: `./preview.sh`
+
+Sau đó mở `http://localhost:8080`.
+
+### Lợi ích
+
+- Mỗi chương có file riêng, dễ chỉnh sửa và review.
+- Git diff nhỏ hơn.
+- Giảm nguy cơ đảo thứ tự khi chèn slide.
+- Website triển khai vẫn là một trải nghiệm trình chiếu liền mạch.

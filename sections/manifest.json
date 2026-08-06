@@ -1,0 +1,76 @@
+[
+  {
+    "file": "sections/01-gioi-thieu-de-an.html",
+    "titles": [
+      "Trang bìa",
+      "Vì sao cần nâng cấp?",
+      "Mục tiêu của đề án",
+      "Phạm vi của đề án",
+      "Giá trị mang lại",
+      "Chuyển sang phân tích hiện trạng"
+    ]
+  },
+  {
+    "file": "sections/02-boi-canh-va-co-hoi.html",
+    "titles": [
+      "Bối cảnh và cơ hội phát triển",
+      "Người dân kỳ vọng điều gì?",
+      "Những giá trị website đang mang lại",
+      "Các cơ hội phát triển",
+      "Kết luận Milestone 2"
+    ]
+  },
+  {
+    "file": "sections/03-dinh-huong-giai-phap.html",
+    "titles": [
+      "Định hướng cổng thông tin mới",
+      "Nguyên tắc thiết kế",
+      "Cấu trúc cổng thông tin",
+      "Định hướng giao diện",
+      "Định hướng Trang chủ",
+      "Định hướng Chuyên khoa và Bác sĩ"
+    ]
+  },
+  {
+    "file": "sections/04-trai-nghiem-theo-doi-tuong.html",
+    "titles": [
+      "Định hướng đăng ký khám trên thiết bị di động",
+      "Định hướng quản trị nội dung cho khoa phòng",
+      "Định hướng theo dõi dành cho lãnh đạo",
+      "Định hướng tích hợp dành cho phòng công nghệ thông tin"
+    ]
+  },
+  {
+    "file": "sections/05-ung-dung-tri-tue-nhan-tao.html",
+    "titles": [
+      "Định hướng ứng dụng trí tuệ nhân tạo",
+      "Trợ lý thông tin dành cho người dân",
+      "Trợ lý biên tập nội dung dành cho khoa phòng",
+      "Nguyên tắc sử dụng trí tuệ nhân tạo"
+    ]
+  },
+  {
+    "file": "sections/06-chi-tiet-giai-phap.html",
+    "titles": [
+      "Trang chủ đề xuất",
+      "Hành trình người dân",
+      "Nhóm chức năng",
+      "Chuyên khoa và dịch vụ",
+      "Hồ sơ bác sĩ",
+      "Hướng dẫn và đặt lịch",
+      "Trải nghiệm di động",
+      "Quản trị nội dung",
+      "Vai trò khoa phòng",
+      "Kết luận Milestone 3"
+    ]
+  },
+  {
+    "file": "sections/07-gia-tri-va-lo-trinh.html",
+    "titles": [
+      "Giá trị và lộ trình triển khai",
+      "Giá trị mang lại",
+      "Lộ trình triển khai",
+      "Kiến nghị và bước tiếp theo"
+    ]
+  }
+]
