@@ -182,3 +182,12 @@ Sau đó mở `http://localhost:8080`.
 - Đề xuất thời gian xử lý theo mức độ ưu tiên.
 - Bổ sung màn hình theo dõi vận hành.
 - Mở đầu Chương 07 – Kiến trúc tổng thể.
+
+
+## v0.17 — Chương 07: Kiến trúc tổng thể
+- Ba lớp kiến trúc.
+- Nguyên tắc tích hợp.
+- Các nhóm hệ thống kết nối.
+- Bảo mật và dữ liệu.
+- Khả năng mở rộng.
+- Mở đầu Chương 08.
