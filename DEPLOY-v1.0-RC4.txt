@@ -1,0 +1,17 @@
+BVDKHocMon Digital Proposal v1.0 RC4
+
+Files thay đổi:
+- sections/*.html
+- styles.css
+- README.md
+
+Cập nhật GitHub:
+git add sections styles.css README.md
+git commit -m "v1.0-rc4: add hospital watermark backgrounds"
+git push origin main
+
+Trên WebServer:
+git pull origin main
+
+Sau đó nhấn Ctrl+F5.
+Nên kiểm tra các trang mở chương, trang #18 và trang Trân trọng cảm ơn.
