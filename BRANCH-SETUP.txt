@@ -1,0 +1,12 @@
+Proposal 2.0 - branch feature/storytelling
+
+git switch main
+git pull origin main
+git switch -c feature/storytelling
+git push -u origin feature/storytelling
+
+Chép nội dung Sprint 1 vào working copy, sau đó:
+
+git add .
+git commit -m "Storytelling: introduce vision-first opening"
+git push

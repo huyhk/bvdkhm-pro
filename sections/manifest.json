@@ -3,10 +3,14 @@
     "file": "sections/01-gioi-thieu-de-an.html",
     "titles": [
       "Trang bìa",
+      "Hãy hình dung",
+      "Website mới sẽ mang lại những gì?",
+      "Trải nghiệm dành cho người dân",
+      "Trải nghiệm dành cho bệnh viện",
+      "Hệ sinh thái Cổng thông tin điện tử",
+      "Từ đích đến trở về hiện trạng",
       "Vì sao cần nâng cấp?",
       "Mục tiêu của đề án",
-      "Phạm vi của đề án",
-      "Giá trị mang lại",
       "Chuyển sang phân tích hiện trạng"
     ]
   },
@@ -16,8 +20,7 @@
       "Bối cảnh và cơ hội phát triển",
       "Người dân kỳ vọng điều gì?",
       "Những giá trị website đang mang lại",
-      "Các cơ hội phát triển",
-      "Kết luận Milestone 2"
+      "Các cơ hội phát triển"
     ]
   },
   {
@@ -26,7 +29,6 @@
       "Định hướng cổng thông tin mới",
       "Nguyên tắc thiết kế",
       "Cấu trúc cổng thông tin",
-      "Định hướng giao diện",
       "Định hướng Trang chủ",
       "Định hướng Chuyên khoa và Bác sĩ"
     ]
@@ -59,61 +61,36 @@
       "Hồ sơ bác sĩ",
       "Hướng dẫn và đặt lịch",
       "Trải nghiệm di động",
-      "Quản trị nội dung",
-      "Vai trò khoa phòng",
-      "Kết luận Milestone 3"
+      "Quản trị nội dung"
     ]
   },
   {
     "file": "sections/07-gia-tri-va-lo-trinh.html",
     "titles": [
       "Giá trị mang lại",
-      "Giá trị tổng thể",
       "Giá trị theo từng đối tượng",
-      "Giá trị dài hạn",
-      "Thông điệp chính về giá trị",
       "Lộ trình triển khai",
       "Ba giai đoạn triển khai",
-      "Phạm vi từng giai đoạn",
-      "Nguyên tắc kiểm soát triển khai",
-      "Thông điệp chính về lộ trình",
       "Mô hình vận hành",
       "Quy trình biên tập nội dung",
-      "Vai trò và trách nhiệm",
       "Mô hình phân quyền",
-      "Thời gian xử lý nội dung",
-      "Theo dõi vận hành",
-      "Thông điệp chính về vận hành",
       "Kiến trúc tổng thể",
       "Ba lớp kiến trúc",
       "Nguyên tắc tích hợp",
-      "Các nhóm hệ thống kết nối",
       "Bảo mật và dữ liệu",
-      "Khả năng mở rộng",
-      "Thông điệp chính về kiến trúc",
       "Chỉ số đánh giá",
       "Chỉ số phục vụ người dân",
       "Chỉ số vận hành khoa phòng",
       "Chỉ số dành cho lãnh đạo",
-      "Chỉ số theo giai đoạn",
-      "Thông điệp chính về chỉ số",
       "Quản trị rủi ro",
       "Các nhóm rủi ro",
-      "Mức độ ưu tiên rủi ro",
       "Chiến lược kiểm soát",
-      "Tình huống minh họa",
-      "Trợ lý AI hỗ trợ quản trị",
-      "Thông điệp chính về rủi ro",
       "Điều kiện thành công",
       "Vai trò của bệnh viện",
-      "Vai trò của đơn vị triển khai",
       "Mô hình phối hợp",
-      "Các yếu tố quyết định thành công",
       "Cam kết triển khai",
-      "Thông điệp chính về thành công",
       "Kết luận",
       "Tổng kết đề án",
-      "Tầm nhìn dài hạn",
       "Bước tiếp theo",
       "Trân trọng cảm ơn"
     ]

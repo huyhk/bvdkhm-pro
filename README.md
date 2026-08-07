@@ -242,3 +242,69 @@ Phiên bản này đóng băng nội dung và tập trung vào chất lượng p
 - Thêm danh sách kiểm tra trước khi phát hành chính thức.
 
 Không bổ sung nội dung mới trong giai đoạn RC, trừ lỗi chính tả, bố cục hoặc vận hành.
+
+## v1.0 RC2 — Sửa màn hình đăng ký khám trên thiết bị di động
+
+- Khắc phục xung đột CSS khiến danh sách chuyên khoa hiển thị thành ba cột hẹp.
+- Chuyển danh sách chuyên khoa về một cột đúng với giao diện điện thoại.
+- Tăng nhẹ chiều rộng khung điện thoại và tối ưu khoảng cách, cỡ chữ.
+
+
+## v1.0 RC3 — Tinh chỉnh giao diện chọn chuyên khoa
+
+- Tăng kích thước tên chuyên khoa và phần mô tả.
+- Giảm khoảng cách thừa do style cũ.
+- Căn tên chuyên khoa ngang hàng với biểu tượng.
+- Bổ sung dấu điều hướng bên phải mỗi lựa chọn.
+- Giới hạn CSS trong riêng mô hình đăng ký khám trên thiết bị di động.
+
+
+## v1.0 RC4 — Tăng bản sắc thị giác bệnh viện
+
+- Bổ sung ảnh bệnh viện mờ làm lớp nền cho các trang mở chương.
+- Áp dụng nền riêng cho trang mô phỏng đăng ký khám trên thiết bị di động.
+- Tăng nhẹ chiều sâu thị giác cho trang bìa, kết luận và trang cảm ơn.
+- Dùng ảnh thật đã có trong bộ tài liệu; không thêm ảnh minh họa bên ngoài.
+- Giữ độ tương phản chữ và khả năng trình chiếu trên màn hình lớn.
+
+
+## v1.0 RC5 — Sửa lỗi co hẹp tên chuyên khoa ở trang 18
+
+- Loại bỏ chiều rộng và chiều cao cố định bị kế thừa từ quy tắc `span` dùng chung.
+- Khôi phục vùng nội dung tên khoa về chiều rộng linh hoạt.
+- Giữ tên khoa và mô tả thẳng hàng với biểu tượng.
+- Tăng nhẹ cỡ chữ nhưng vẫn đảm bảo vừa khung điện thoại.
+
+
+## Proposal 2.0 — Storytelling Sprint 1
+
+Mục tiêu: trong 5 phút đầu, người đọc phải hình dung được sản phẩm.
+
+Flow mới:
+1. Trang bìa
+2. Hãy hình dung
+3. Website mới sẽ mang lại những gì?
+4. Trải nghiệm dành cho người dân
+5. Trải nghiệm dành cho bệnh viện
+6. Hệ sinh thái Cổng thông tin điện tử
+7. Từ đích đến trở về hiện trạng
+8. Vì sao cần nâng cấp?
+9. Mục tiêu của đề án
+10. Chuyển sang phân tích hiện trạng
+
+Tổng số trang hiện tại: **88**.
+Sprint 1 chưa rút gọn phần thân; Sprint 2 sẽ tập trung giảm số trang và gộp nội dung trùng.
+
+
+## Proposal 2.0 — Storytelling Sprint 2
+
+Mục tiêu: giảm độ dài mà không làm mất khả năng hình dung sản phẩm.
+
+- Từ 88 xuống còn **61 trang**.
+- Giữ nguyên phần mở đầu Vision-first của Sprint 1.
+- Loại bỏ các trang kết luận milestone và các "thông điệp chính" lặp lại.
+- Giảm các slide giá trị / lộ trình / vận hành / kiến trúc / KPI / rủi ro có nội dung gần nhau.
+- Giữ đầy đủ các mockup và nhóm chức năng quan trọng.
+- Thêm cache-busting cho CSS/JS để tránh Python webserver + browser hiển thị nhầm phiên bản.
+
+Sprint 3 dự kiến tập trung vào tăng tỷ lệ mockup / visual và gộp thêm một số slide giải thích.

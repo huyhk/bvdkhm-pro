@@ -23,7 +23,7 @@ async function loadPresentation() {
     deck.innerHTML = fragments.join('\n');
 
     const appScript = document.createElement('script');
-    appScript.src = 'app.js';
+    appScript.src = "app.js?v=2.0-s2";
     appScript.onload = () => document.documentElement.classList.add('presentation-ready');
     appScript.onerror = () => showLoadError(new Error('Không tải được app.js'));
     document.body.appendChild(appScript);
