@@ -21,7 +21,7 @@ function show(i, hash=true){
   [...tocList.children].forEach((b,n)=>b.classList.toggle('active',n===current));
   counter.textContent=`${current+1} / ${slides.length}`;
   progress.style.width=`${((current+1)/slides.length)*100}%`;
-  document.title=`${current+1}. ${slides[current].dataset.title} — Proposal v2`;
+  document.title=`${current+1}. ${slides[current].dataset.title} — Đề án v2`;
   if(hash) history.replaceState(null,'',`#${current+1}`);
 }
 

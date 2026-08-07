@@ -34,3 +34,21 @@ Khi xuất hiện lần đầu nên ưu tiên dạng:
 - Một trang = một thông điệp chính.
 - Hạn chế đoạn văn dài.
 - Giao diện chỉ là minh họa định hướng, không phải thiết kế cuối.
+
+
+## Quy ước nhóm nội dung từ M3
+- TRẢI NGHIỆM NGƯỜI DÂN
+- VẬN HÀNH KHOA / PHÒNG
+- ĐIỀU HÀNH
+- QUẢN TRỊ HỆ THỐNG
+- NỀN TẢNG GIẢI PHÁP
+- LỘ TRÌNH TRIỂN KHAI
+
+Không dùng “Câu chuyện - Người dân” hoặc “Câu chuyện - Bệnh viện”.
+
+## Quy ước minh họa
+- Website trên desktop: đặt trong khung laptop.
+- CMS: đặt trong khung laptop.
+- Bảng điều hành: đặt trong khung màn hình desktop.
+- Mobile: đặt trong khung điện thoại.
+- Chú thích “Ví dụ ...” để nhỏ, không biến thành tiêu đề chính.

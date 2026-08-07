@@ -1,5 +1,5 @@
 @echo off
-title BVDKHM Proposal v2 - Milestone 2
+title BVDKHM De an V2 - Milestone 3
 cd /d "%~dp0"
 start "" http://localhost:8080
 python -m http.server 8080

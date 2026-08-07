@@ -105,3 +105,300 @@ h3{font-size:24px;line-height:1.25}
   .phone{transform:scale(.86)}
   .arch-row,.arch-systems{grid-template-columns:1fr 1fr}
 }
+
+
+/* =========================================================
+   M3 — Thiết bị rõ ràng, bối cảnh sử dụng, ít chữ hơn
+   ========================================================= */
+.device-scene{
+  position:relative;
+  min-height:470px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:22px 18px 4px;
+  border-radius:28px;
+  background:
+    radial-gradient(circle at 50% 25%,rgba(36,168,216,.12),transparent 35%),
+    linear-gradient(145deg,#eef6fa,#f9fcfd);
+  overflow:hidden;
+}
+.device-scene::before{
+  content:"";
+  position:absolute;
+  inset:auto -8% -25% -8%;
+  height:48%;
+  background:linear-gradient(180deg,rgba(255,255,255,0),rgba(12,91,160,.055));
+  border-radius:50% 50% 0 0;
+}
+.device-context{
+  align-self:flex-start;
+  margin:0 0 18px 18px;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  z-index:3;
+}
+.device-context span{
+  color:var(--blue);
+  font-size:9px;
+  font-weight:900;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+}
+.device-context strong{
+  margin-top:5px;
+  color:#31536d;
+  font-size:13px;
+}
+.illustration-note{
+  display:block;
+  margin-top:14px;
+  color:#7d8e9b;
+  font-size:9px;
+  font-style:italic;
+  position:relative;
+  z-index:3;
+}
+
+/* Laptop */
+.laptop-device{
+  width:min(100%,720px);
+  position:relative;
+  z-index:2;
+  filter:drop-shadow(0 22px 28px rgba(22,55,82,.18));
+}
+.laptop-screen{
+  width:100%;
+  aspect-ratio:16/10;
+  background:#0e1824;
+  border:10px solid #172230;
+  border-bottom-width:14px;
+  border-radius:18px 18px 10px 10px;
+  overflow:hidden;
+  position:relative;
+}
+.laptop-screen::after{
+  content:"";
+  position:absolute;
+  top:4px;
+  left:50%;
+  transform:translateX(-50%);
+  width:5px;
+  height:5px;
+  border-radius:50%;
+  background:#445564;
+  z-index:5;
+}
+.laptop-base{
+  height:20px;
+  width:108%;
+  margin-left:-4%;
+  background:linear-gradient(180deg,#cbd3d8,#9ca8b1);
+  border-radius:2px 2px 14px 14px;
+  position:relative;
+  box-shadow:0 5px 8px rgba(0,0,0,.15);
+}
+.laptop-base::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:38%;
+  width:24%;
+  height:5px;
+  background:#87949e;
+  border-radius:0 0 6px 6px;
+}
+.laptop-base span{
+  position:absolute;
+  left:8%;
+  right:8%;
+  bottom:-4px;
+  height:4px;
+  border-radius:50%;
+  background:rgba(0,0,0,.12);
+}
+.browser-chrome{
+  height:36px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:0 11px;
+  background:#edf2f5;
+  color:#627382;
+  border-bottom:1px solid #d7e1e8;
+}
+.browser-dots{display:flex;gap:5px}
+.browser-dots i{width:7px;height:7px;border-radius:50%;background:#bec9d1}
+.browser-address{
+  flex:1;
+  height:22px;
+  display:flex;
+  align-items:center;
+  gap:7px;
+  padding:0 9px;
+  border-radius:7px;
+  background:#fff;
+  font-size:8px;
+  color:#6c7f8e;
+}
+.favicon{
+  width:13px;height:13px;
+  border-radius:4px;
+  display:grid;place-items:center;
+  background:#0b67b3;
+  color:#fff;
+  font-size:8px;
+  font-weight:900;
+}
+.browser-user{
+  font-size:8px;
+  font-weight:800;
+  color:#42647c;
+}
+.laptop-screen .site-hero{
+  height:250px;
+  padding:22px 25px;
+}
+.laptop-screen .site-hero h3{
+  font-size:27px;
+  margin:35px 0 10px;
+}
+.laptop-screen .site-content{
+  grid-template-columns:repeat(3,1fr);
+  gap:8px;
+  padding:14px 16px;
+  background:#fff;
+}
+.laptop-screen .site-content div{
+  height:auto;
+  min-height:58px;
+  padding:10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  background:#f3f7f9;
+}
+.laptop-screen .site-content b{font-size:9px;color:#245171}
+.laptop-screen .site-content span{font-size:7px;color:#79909f;margin-top:3px}
+
+/* CMS inside laptop */
+.work-laptop .laptop-screen{
+  background:#f7fafc;
+}
+.work-laptop .admin-shell{
+  height:calc(100% - 36px);
+  grid-template-columns:125px 1fr;
+}
+.work-laptop .admin-nav{
+  padding:14px;
+}
+.work-laptop .admin-nav b{font-size:10px;margin-bottom:18px}
+.work-laptop .admin-nav span{font-size:8px;padding:7px 0}
+.work-laptop .admin-main{padding:14px}
+.work-laptop .admin-title strong{font-size:15px}
+.work-laptop .admin-title button{font-size:7px;padding:7px 9px}
+.work-laptop .admin-stats{margin-top:12px}
+.work-laptop .admin-stats div{padding:9px}
+.work-laptop .admin-stats b{font-size:17px}
+.work-laptop .admin-table{margin-top:10px}
+.work-laptop .admin-row{padding:8px 9px;font-size:7px}
+
+/* Monitor for executive dashboard */
+.monitor-device{
+  width:min(100%,700px);
+  position:relative;
+  z-index:2;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  filter:drop-shadow(0 24px 30px rgba(0,0,0,.24));
+}
+.monitor-screen{
+  width:100%;
+  aspect-ratio:16/9;
+  padding:10px;
+  border-radius:18px;
+  background:#171f29;
+  border:2px solid #2b3948;
+}
+.monitor-screen .dashboard{
+  height:100%;
+  border-radius:10px;
+  box-shadow:none;
+  padding:14px;
+}
+.monitor-screen .dash-head strong{font-size:15px}
+.monitor-screen .dash-kpis{margin-top:10px;gap:7px}
+.monitor-screen .dash-kpis div{padding:9px}
+.monitor-screen .dash-kpis b{font-size:17px}
+.monitor-screen .chart{height:130px;margin-top:10px}
+.monitor-neck{
+  width:54px;
+  height:42px;
+  background:linear-gradient(90deg,#77838d,#b4bdc4,#77838d);
+}
+.monitor-base{
+  width:180px;
+  height:13px;
+  border-radius:50%;
+  background:linear-gradient(180deg,#aeb7be,#68747d);
+  box-shadow:0 7px 12px rgba(0,0,0,.2);
+}
+
+/* Scene-specific subtle context */
+.citizen-scene{
+  background:
+    radial-gradient(circle at 70% 28%,rgba(36,168,216,.13),transparent 30%),
+    linear-gradient(145deg,#f4fafc,#eaf3f7);
+}
+.staff-scene{
+  background:
+    radial-gradient(circle at 20% 15%,rgba(23,169,140,.10),transparent 32%),
+    linear-gradient(145deg,#f5fbfa,#edf5f7);
+}
+.executive-scene{
+  background:
+    radial-gradient(circle at 80% 18%,rgba(36,168,216,.12),transparent 33%),
+    linear-gradient(145deg,#0b2c4b,#10243a);
+}
+.executive-scene .device-context span{color:#82dcff}
+.executive-scene .device-context strong{color:#d8e9f4}
+.executive-scene .illustration-note{color:#a9c3d4}
+
+/* Giảm cảm giác slide, tăng khoảng thở */
+.slide h2{
+  max-width:1180px;
+}
+.mockup-layout{
+  gap:42px;
+}
+.points{
+  gap:14px;
+}
+.point p{
+  max-width:460px;
+}
+.evidence-label{
+  display:none !important;
+}
+
+/* Mobile frame polish */
+.phone{
+  box-shadow:
+    0 28px 65px rgba(15,23,42,.30),
+    inset 0 0 0 1px rgba(255,255,255,.06);
+}
+.phone::before{
+  content:"";
+  position:absolute;
+  top:8px;
+  left:50%;
+  transform:translateX(-50%);
+  width:74px;
+  height:17px;
+  border-radius:0 0 11px 11px;
+  background:#101b2b;
+  z-index:4;
+}
