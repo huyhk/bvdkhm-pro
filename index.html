@@ -1,27 +1,30 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="#005bac" name="theme-color"/>
-<title>BVDKHM Digital Proposal 2.0 — Sprint 2</title>
-<link href="styles.css?v=2.0-s2" rel="stylesheet"/>
-<meta content="Đề án nâng cấp Cổng thông tin điện tử Bệnh viện Đa khoa Khu vực Hóc Môn, phiên bản ứng viên phát hành v1.0." name="description"/></head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#075aa6">
+  <meta name="description" content="Đề án nâng cấp Cổng thông tin điện tử Bệnh viện Đa khoa Khu vực Hóc Môn - Proposal v2">
+  <title>BVDKHM Proposal v2 — Milestone 1</title>
+  <link rel="stylesheet" href="styles.css?v=2.0-m1">
+</head>
 <body>
-<main id="deck"><div class="deck-loading" id="deck-loading">Đang tải nội dung trình bày…</div></main>
-<aside class="notes-panel" id="notesPanel"><div class="notes-head"><b>Ghi chú thuyết trình</b><button id="closeNotes">×</button></div><p id="notesText"></p></aside>
-<aside class="toc" id="toc"><div class="toc-head"><b>Mục lục</b><button id="closeToc">×</button></div><div id="tocList"></div></aside>
-<nav class="controls">
-<button aria-label="Trang trước" id="prev">←</button>
-<span id="counter">Đang tải…</span>
-<button aria-label="Trang sau" id="next">→</button>
-<button aria-label="Mục lục" id="tocBtn">☰</button>
-<button aria-label="Ghi chú" id="notesBtn">N</button>
-<button aria-label="Toàn màn hình" id="fullscreen">⛶</button>
-</nav>
-<div class="progress"><i id="progressBar"></i></div>
-<script src="loader.js?v=2.0-s2"></script>
+  <main id="deck"></main>
+
+  <aside id="toc" class="toc">
+    <div class="toc-head"><strong>Nội dung</strong><button id="closeToc">×</button></div>
+    <div id="tocList" class="toc-list"></div>
+  </aside>
+
+  <nav class="controls" aria-label="Điều khiển trình chiếu">
+    <button id="tocBtn" title="Mục lục">☰</button>
+    <button id="prev" title="Trang trước">←</button>
+    <span id="counter">1 / 1</span>
+    <button id="next" title="Trang sau">→</button>
+    <button id="fullscreen" title="Toàn màn hình">⛶</button>
+  </nav>
+
+  <div class="progress"><i id="progressBar"></i></div>
+  <script src="loader.js?v=2.0-m1"></script>
 </body>
 </html>
-

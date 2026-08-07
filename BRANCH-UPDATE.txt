@@ -1,0 +1,7 @@
+Trên branch feature/storytelling:
+
+git add .
+git commit -m "Proposal v2: create milestone 1 foundation"
+git push
+
+Không merge về main cho đến khi Proposal v2 được review và chốt.

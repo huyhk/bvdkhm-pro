@@ -1,98 +1,17 @@
 [
   {
-    "file": "sections/01-gioi-thieu-de-an.html",
-    "titles": [
-      "Trang bìa",
-      "Hãy hình dung",
-      "Website mới sẽ mang lại những gì?",
-      "Trải nghiệm dành cho người dân",
-      "Trải nghiệm dành cho bệnh viện",
-      "Hệ sinh thái Cổng thông tin điện tử",
-      "Từ đích đến trở về hiện trạng",
-      "Vì sao cần nâng cấp?",
-      "Mục tiêu của đề án",
-      "Chuyển sang phân tích hiện trạng"
-    ]
+    "file": "sections/01-vision.html"
   },
   {
-    "file": "sections/02-boi-canh-va-co-hoi.html",
-    "titles": [
-      "Bối cảnh và cơ hội phát triển",
-      "Người dân kỳ vọng điều gì?",
-      "Những giá trị website đang mang lại",
-      "Các cơ hội phát triển"
-    ]
+    "file": "sections/02-experience.html"
   },
   {
-    "file": "sections/03-dinh-huong-giai-phap.html",
-    "titles": [
-      "Định hướng cổng thông tin mới",
-      "Nguyên tắc thiết kế",
-      "Cấu trúc cổng thông tin",
-      "Định hướng Trang chủ",
-      "Định hướng Chuyên khoa và Bác sĩ"
-    ]
+    "file": "sections/03-hospital.html"
   },
   {
-    "file": "sections/04-trai-nghiem-theo-doi-tuong.html",
-    "titles": [
-      "Định hướng đăng ký khám trên thiết bị di động",
-      "Định hướng quản trị nội dung cho khoa phòng",
-      "Định hướng theo dõi dành cho lãnh đạo",
-      "Định hướng tích hợp dành cho phòng công nghệ thông tin"
-    ]
+    "file": "sections/04-platform.html"
   },
   {
-    "file": "sections/05-ung-dung-tri-tue-nhan-tao.html",
-    "titles": [
-      "Định hướng ứng dụng trí tuệ nhân tạo",
-      "Trợ lý thông tin dành cho người dân",
-      "Trợ lý biên tập nội dung dành cho khoa phòng",
-      "Nguyên tắc sử dụng trí tuệ nhân tạo"
-    ]
-  },
-  {
-    "file": "sections/06-chi-tiet-giai-phap.html",
-    "titles": [
-      "Trang chủ đề xuất",
-      "Hành trình người dân",
-      "Nhóm chức năng",
-      "Chuyên khoa và dịch vụ",
-      "Hồ sơ bác sĩ",
-      "Hướng dẫn và đặt lịch",
-      "Trải nghiệm di động",
-      "Quản trị nội dung"
-    ]
-  },
-  {
-    "file": "sections/07-gia-tri-va-lo-trinh.html",
-    "titles": [
-      "Giá trị mang lại",
-      "Giá trị theo từng đối tượng",
-      "Lộ trình triển khai",
-      "Ba giai đoạn triển khai",
-      "Mô hình vận hành",
-      "Quy trình biên tập nội dung",
-      "Mô hình phân quyền",
-      "Kiến trúc tổng thể",
-      "Ba lớp kiến trúc",
-      "Nguyên tắc tích hợp",
-      "Bảo mật và dữ liệu",
-      "Chỉ số đánh giá",
-      "Chỉ số phục vụ người dân",
-      "Chỉ số vận hành khoa phòng",
-      "Chỉ số dành cho lãnh đạo",
-      "Quản trị rủi ro",
-      "Các nhóm rủi ro",
-      "Chiến lược kiểm soát",
-      "Điều kiện thành công",
-      "Vai trò của bệnh viện",
-      "Mô hình phối hợp",
-      "Cam kết triển khai",
-      "Kết luận",
-      "Tổng kết đề án",
-      "Bước tiếp theo",
-      "Trân trọng cảm ơn"
-    ]
+    "file": "sections/05-roadmap.html"
   }
 ]
