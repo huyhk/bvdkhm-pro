@@ -24,3 +24,13 @@ Chạy `preview.bat`.
 
 Commit gợi ý:
 `Proposal v2: create milestone 1 foundation`
+
+
+## Milestone 2
+
+- Chuẩn hóa ngôn ngữ: tiếng Việt là chính.
+- Không dùng “Mockup”, “Story”, “Evidence”, “Value” trên Proposal.
+- Viết lại tiêu đề theo câu hỏi/ngữ cảnh sử dụng.
+- Giảm chất kỹ thuật trong cách diễn đạt.
+- Giữ mockup ở vai trò “giao diện minh họa”, không phải thiết kế cuối.
+- Tăng tính súc tích ở phần mở đầu và các câu chuyện người dùng.

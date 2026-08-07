@@ -1,0 +1,5 @@
+Trên branch feature/storytelling:
+
+git add .
+git commit -m "Proposal v2: standardize language and refine milestone 2"
+git push
