@@ -46,3 +46,20 @@ Commit gợi ý:
 - Bảng điều hành đặt trong màn hình desktop, kèm bối cảnh Ban Giám đốc.
 - Mobile tiếp tục dùng khung điện thoại.
 - Giảm nhãn kỹ thuật và chuyển chú thích minh họa xuống cấp độ phụ.
+
+
+## Milestone 4 — Hoàn thiện lập luận
+
+Bổ sung Chương III “Xu hướng và nhu cầu mới” gồm 4 trang:
+
+1. Xu hướng và nhu cầu mới — bối cảnh xã hội thay đổi.
+2. Người dân mong đợi điều gì? — các kỳ vọng xoay quanh hành trình tiếp cận dịch vụ.
+3. Vai trò của Cổng thông tin điện tử — từ cung cấp thông tin đến đồng hành.
+4. Nguyên tắc xây dựng Đề án — 5 nguyên tắc định hướng.
+
+Nguyên tắc của chương:
+- Không khảo sát hiện trạng.
+- Không dùng hình website cũ.
+- Không liệt kê lỗi.
+- Không dùng giao diện UI ở chương này.
+- Chỉ nói về xu hướng xã hội, nhu cầu người dùng và định hướng tương lai.

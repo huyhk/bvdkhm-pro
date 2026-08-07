@@ -1,0 +1,5 @@
+Trên branch feature/storytelling:
+
+git add .
+git commit -m "De an v2: add trend and user needs chapter for M4"
+git push
