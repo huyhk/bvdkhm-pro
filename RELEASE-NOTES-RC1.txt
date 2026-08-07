@@ -1,0 +1,16 @@
+ĐỀ ÁN NÂNG CẤP CỔNG THÔNG TIN ĐIỆN TỬ
+Phiên bản 2.0 — RC1
+
+Milestone 5:
+- Không thêm trang.
+- Không thêm chức năng.
+- Chuẩn hóa ngôn ngữ.
+- Thống nhất phong cách thiết kế.
+- Hoàn thiện trang kết.
+- Chuẩn bị khả năng in/PDF.
+- Tổng số trang: 21.
+
+Commit đề xuất:
+git add .
+git commit -m "De an v2: finalize publication design for RC1"
+git push

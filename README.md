@@ -63,3 +63,18 @@ Nguyên tắc của chương:
 - Không liệt kê lỗi.
 - Không dùng giao diện UI ở chương này.
 - Chỉ nói về xu hướng xã hội, nhu cầu người dùng và định hướng tương lai.
+
+
+## Milestone 5 — RC1
+
+M5 không bổ sung nội dung mới. Đây là bước hoàn thiện để phát hành:
+
+- Chuẩn hóa câu chữ trên toàn bộ 21 trang.
+- Thống nhất typography, spacing, card, shadow và màu nhấn.
+- Đồng bộ phong cách giữa các chương.
+- Giảm nội dung lặp và câu dài.
+- Tăng trọng lượng cho trang kết.
+- Bổ sung CSS dành cho in/PDF theo khổ A4 ngang.
+- Bổ sung cache-busting cho RC1.
+
+Trạng thái: Release Candidate 1.
