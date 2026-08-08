@@ -1,82 +1,410 @@
-<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Đặc tả yêu cầu phần mềm — Hệ thống Cổng thông tin điện tử</title><link rel="stylesheet" href="styles.css?v=0.1-m2"></head><body>
-<header class="topbar"><div><strong>ĐẶC TẢ YÊU CẦU PHẦN MỀM</strong><span>Hệ thống Cổng thông tin điện tử</span></div><small>Phiên bản 0.1 · Dự thảo</small></header><main>
-<section class="page cover"><div class="ghost">SRS</div><div class="cover-content"><div class="eyebrow">BỆNH VIỆN ĐA KHOA KHU VỰC HÓC MÔN</div><h1>Đặc tả yêu cầu phần mềm</h1><h2>Hệ thống Cổng thông tin điện tử</h2><div class="meta-grid"><div><span>Phiên bản</span><b>0.1 (Dự thảo)</b></div><div><span>Thời gian</span><b>08/2026</b></div><div><span>Đơn vị thực hiện</span><b>Đơn vị triển khai</b></div></div></div><footer><span>Tài liệu đặc tả yêu cầu phần mềm</span><span>1</span></footer></section>
-<section class="page"><div class="eyebrow">QUẢN LÝ TÀI LIỆU</div><h2>Lịch sử cập nhật</h2><table><thead><tr><th>Phiên bản</th><th>Ngày</th><th>Nội dung</th><th>Thực hiện</th></tr></thead><tbody><tr><td>0.1</td><td>08/2026</td><td>Khởi tạo tài liệu Giai đoạn 1 - M2</td><td>Đơn vị triển khai</td></tr></tbody></table><div class="note"><b>Trạng thái tài liệu</b><p>Dự thảo để Bệnh viện và đơn vị triển khai cùng rà soát, thống nhất phạm vi và cách hiểu hệ thống.</p></div><footer><span>Đặc tả yêu cầu phần mềm</span><span>2</span></footer></section>
-<section class="page"><div class="eyebrow">MỤC LỤC</div><h2>Cấu trúc tài liệu</h2><div class="toc"><div><b>1</b><span>Giới thiệu</span></div><div><b>2</b><span>Tổng quan hệ thống</span></div><div><b>3</b><span>Bản đồ chức năng</span></div><div><b>4</b><span>Nguyên tắc xây dựng hệ thống</span></div><div class="future"><b>5</b><span>Đặc tả chức năng</span></div><div class="future"><b>6</b><span>Use Case</span></div><div class="future"><b>7</b><span>Yêu cầu phi chức năng</span></div><div class="future"><b>8</b><span>Chuyển đổi dữ liệu</span></div><div class="future"><b>9</b><span>Phụ lục</span></div></div><footer><span>Đặc tả yêu cầu phần mềm</span><span>3</span></footer></section>
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Đặc tả yêu cầu phần mềm — Hệ thống Cổng thông tin điện tử</title><link href="styles.css?v=0.2-m3" rel="stylesheet"/></head><body>
+<header class="topbar"><div><strong>ĐẶC TẢ YÊU CẦU PHẦN MỀM</strong><span>Hệ thống Cổng thông tin điện tử</span></div><small>Phiên bản 0.3 · Dự thảo</small></header><main>
+<section class="page cover"><div class="ghost">SRS</div><div class="cover-content"><div class="eyebrow">BỆNH VIỆN ĐA KHOA KHU VỰC HÓC MÔN</div><h1>Đặc tả yêu cầu phần mềm</h1><h2>Hệ thống Cổng thông tin điện tử</h2><div class="meta-grid"><div><span>Phiên bản</span><b>0.3 (Dự thảo)</b></div><div><span>Thời gian</span><b>08/2026</b></div><div><span>Đơn vị thực hiện</span><b>Đơn vị triển khai</b></div></div></div><footer><span>Tài liệu đặc tả yêu cầu phần mềm</span><span>1</span></footer></section>
+<section class="page"><div class="eyebrow">QUẢN LÝ TÀI LIỆU</div><h2>Lịch sử cập nhật</h2><table><thead><tr><th>Phiên bản</th><th>Ngày</th><th>Nội dung</th><th>Thực hiện</th></tr></thead><tbody><tr><td>0.3</td><td>08/2026</td><td>Bổ sung quan hệ chức năng, Lịch khám, Quản lý lịch khám và nộp hồ sơ tuyển dụng trực tuyến</td><td>Đơn vị triển khai</td></tr>
+<tr><td>0.2</td><td>08/2026</td><td>Hoàn thiện Chương 5 - Đặc tả chức năng công cộng</td><td>Đơn vị triển khai</td></tr>
+<tr><td>0.1</td><td>08/2026</td><td>Khởi tạo tài liệu và bản đồ chức năng</td><td>Đơn vị triển khai</td></tr>
+</tbody></table><div class="note"><b>Trạng thái tài liệu</b><p>Dự thảo để Bệnh viện và đơn vị triển khai cùng rà soát, thống nhất phạm vi và cách hiểu hệ thống.</p></div><footer><span>Đặc tả yêu cầu phần mềm</span><span>2</span></footer></section>
+<section class="page"><div class="eyebrow">MỤC LỤC</div><h2>Cấu trúc tài liệu</h2><div class="toc">
+<div><b>1</b><span>Giới thiệu</span></div>
+<div><b>2</b><span>Tổng quan hệ thống</span></div>
+<div><b>3</b><span>Bản đồ chức năng</span></div>
+<div><b>4</b><span>Quan hệ giữa các nhóm chức năng</span></div>
+<div><b>5</b><span>Nguyên tắc xây dựng hệ thống</span></div>
+<div><b>6</b><span>Đặc tả chức năng công cộng</span></div>
+<div><b>7</b><span>Đặc tả chức năng nội bộ liên quan</span></div>
+<div class="future"><b>8</b><span>Use Case</span></div>
+<div class="future"><b>9</b><span>Yêu cầu phi chức năng</span></div>
+<div class="future"><b>10</b><span>Chuyển đổi dữ liệu</span></div>
+<div class="future"><b>11</b><span>Phụ lục</span></div>
+</div><footer><span>Đặc tả yêu cầu phần mềm</span><span>3</span></footer></section>
 <section class="page chapter"><div class="chapter-no">01</div><div><div class="eyebrow">CHƯƠNG 1</div><h1>Giới thiệu</h1><p class="lead">Xác định mục đích tài liệu, phạm vi triển khai và các nhóm người dùng chính.</p></div><footer><span>Chương 1 · Giới thiệu</span><span>4</span></footer></section>
-<section class="page"><div class="eyebrow">1.1</div><h2>Mục đích tài liệu</h2><p class="summary">Mô tả yêu cầu nghiệp vụ và phạm vi chức năng của Hệ thống Cổng thông tin điện tử Bệnh viện Đa khoa khu vực Hóc Môn.</p><h3>Tài liệu là cơ sở để</h3><div class="cards three"><article><b>Thống nhất yêu cầu</b><span>Giữa Bệnh viện và đơn vị triển khai.</span></article><article><b>Thiết kế & phát triển</b><span>Làm căn cứ cho thiết kế và phát triển phần mềm.</span></article><article><b>Kiểm thử & nghiệm thu</b><span>Xác định các nội dung cần đáp ứng và kiểm tra.</span></article></div><footer><span>Chương 1 · Giới thiệu</span><span>5</span></footer></section>
+<section class="page"><div class="eyebrow">1.1</div><h2>Mục đích tài liệu</h2><p class="summary">Mô tả yêu cầu nghiệp vụ và phạm vi chức năng của Hệ thống Cổng thông tin điện tử Bệnh viện Đa khoa khu vực Hóc Môn.</p><h3>Tài liệu là cơ sở để</h3><div class="cards three"><article><b>Thống nhất yêu cầu</b><span>Giữa Bệnh viện và đơn vị triển khai.</span></article><article><b>Thiết kế &amp; phát triển</b><span>Làm căn cứ cho thiết kế và phát triển phần mềm.</span></article><article><b>Kiểm thử &amp; nghiệm thu</b><span>Xác định các nội dung cần đáp ứng và kiểm tra.</span></article></div><footer><span>Chương 1 · Giới thiệu</span><span>5</span></footer></section>
 <section class="page"><div class="eyebrow">1.2</div><h2>Phạm vi hệ thống</h2><div class="twocol"><div><h3>Trong phạm vi</h3><ul class="check"><li>Cổng thông tin công cộng</li><li>Thông tin bệnh viện</li><li>Tin tức, thông báo và hướng dẫn</li><li>Đăng ký khám</li><li>Tuyển dụng</li><li>Biên tập và xuất bản nội dung</li><li>Người dùng và phân quyền</li><li>Điều hành</li><li>Báo cáo nội bộ <em>(nếu thống nhất triển khai)</em></li><li>Quản trị hệ thống</li></ul></div><div><h3>Ngoài phạm vi</h3><ul class="plain"><li>HIS</li><li>LIS</li><li>PACS</li><li>Các phần mềm nghiệp vụ chuyên ngành khác</li><li>Các tích hợp chưa được thống nhất</li></ul><div class="note compact"><b>Ghi chú</b><p>Các nội dung ngoài phạm vi chỉ được xem xét khi có yêu cầu riêng ở giai đoạn tiếp theo.</p></div></div></div><footer><span>Chương 1 · Giới thiệu</span><span>6</span></footer></section>
 <section class="page"><div class="eyebrow">1.3</div><h2>Đối tượng sử dụng</h2><table><thead><tr><th>Nhóm người dùng</th><th>Mục đích sử dụng</th></tr></thead><tbody><tr><td>Người dân</td><td>Tra cứu thông tin, tiếp cận dịch vụ trực tuyến</td></tr><tr><td>Người bệnh và người nhà</td><td>Tìm thông tin, hướng dẫn và đăng ký khám</td></tr><tr><td>Cán bộ khoa/phòng</td><td>Biên tập, quản lý và cung cấp nội dung theo phân quyền</td></tr><tr><td>Ban Giám đốc</td><td>Theo dõi thông tin điều hành và các chỉ số tổng hợp</td></tr><tr><td>Phòng Công nghệ thông tin</td><td>Quản trị và vận hành hệ thống</td></tr></tbody></table><footer><span>Chương 1 · Giới thiệu</span><span>7</span></footer></section>
 <section class="page chapter"><div class="chapter-no">02</div><div><div class="eyebrow">CHƯƠNG 2</div><h1>Tổng quan hệ thống</h1><p class="lead">Hệ thống được tổ chức theo hai vùng sử dụng: công cộng và nội bộ.</p></div><footer><span>Chương 2 · Tổng quan hệ thống</span><span>8</span></footer></section>
 <section class="page"><div class="eyebrow">2.1</div><h2>Mục tiêu hệ thống</h2><div class="goalgrid"><article><b>Thông tin chính thống</b><span>Cung cấp thông tin đầy đủ, rõ ràng và kịp thời từ Bệnh viện.</span></article><article><b>Thuận tiện cho người dân</b><span>Hỗ trợ tra cứu và tiếp cận dịch vụ trực tuyến.</span></article><article><b>Quản trị thống nhất</b><span>Chuẩn hóa quy trình biên tập, phê duyệt và xuất bản.</span></article><article><b>Vận hành có kiểm soát</b><span>Phân quyền theo vai trò và đơn vị.</span></article><article class="wide"><b>Sẵn sàng mở rộng</b><span>Cho phép bổ sung chức năng và tích hợp trong tương lai.</span></article></div><footer><span>Chương 2 · Tổng quan hệ thống</span><span>9</span></footer></section>
-<section class="page"><div class="eyebrow">2.2</div><h2>Mô hình tổng thể</h2><div class="systemmap"><div class="zone"><small>CHỨC NĂNG CÔNG CỘNG</small><b>Người dân · Người bệnh · Đối tác</b><ul><li>Thông tin bệnh viện</li><li>Tin tức, thông báo & hướng dẫn</li><li>Đăng ký khám</li><li>Tuyển dụng</li></ul></div><div class="shared"><small>NỀN TẢNG DÙNG CHUNG</small><b>Người dùng · Phân quyền · Nội dung · Nhật ký · Dữ liệu dùng chung</b></div><div class="zone"><small>CHỨC NĂNG NỘI BỘ</small><b>Cán bộ · Lãnh đạo · Phòng CNTT</b><ul><li>Biên tập & xuất bản</li><li>Điều hành</li><li>Báo cáo nội bộ</li><li>Quản trị hệ thống</li></ul></div></div><footer><span>Chương 2 · Tổng quan hệ thống</span><span>10</span></footer></section>
-<section class="page"><div class="eyebrow">2.3</div><h2>Nguyên tắc tổ chức</h2><div class="cards two"><article><b>Chức năng công cộng và nội bộ tách rõ</b><span>Chức năng công cộng và nội bộ được tổ chức độc lập về nghiệp vụ.</span></article><article><b>Dùng chung nền tảng quản trị</b><span>Tận dụng chung người dùng, phân quyền, dữ liệu và nhật ký hệ thống.</span></article><article><b>Kế thừa dữ liệu hợp lý</b><span>Ưu tiên giữ dữ liệu hiện có, nhưng có thể tái phân loại hoặc loại bỏ sau khi thống nhất.</span></article><article><b>Không khóa kiến trúc vào dữ liệu cũ</b><span>Các chức năng có nghiệp vụ riêng có thể được tách thành module độc lập.</span></article></div><footer><span>Chương 2 · Tổng quan hệ thống</span><span>11</span></footer></section>
-<section class="page chapter"><div class="chapter-no">03</div><div><div class="eyebrow">CHƯƠNG 3</div><h1>Bản đồ chức năng</h1><p class="lead">Toàn bộ hệ thống được tổ chức thành hai nhóm chức năng chính: công cộng và nội bộ, cùng sử dụng các năng lực nền tảng chung.</p></div><footer><span>Chương 3 · Bản đồ chức năng</span><span>12</span></footer></section>
+<section class="page"><div class="eyebrow">2.2</div><h2>Mô hình tổng thể</h2><div class="systemmap"><div class="zone"><small>CHỨC NĂNG CÔNG CỘNG</small><b>Người dân · Người bệnh · Đối tác</b><ul><li>Thông tin bệnh viện</li><li>Tin tức, thông báo &amp; hướng dẫn</li><li>Đăng ký khám</li><li>Tuyển dụng</li></ul></div><div class="shared"><small>NỀN TẢNG DÙNG CHUNG</small><b>Người dùng · Phân quyền · Nội dung · Nhật ký · Dữ liệu dùng chung</b></div><div class="zone"><small>CHỨC NĂNG NỘI BỘ</small><b>Cán bộ · Lãnh đạo · Phòng CNTT</b><ul><li>Biên tập &amp; xuất bản</li><li>Điều hành</li><li>Báo cáo nội bộ</li><li>Quản trị hệ thống</li></ul></div></div><footer><span>Chương 2 · Tổng quan hệ thống</span><span>10</span></footer></section>
+<section class="page"><div class="eyebrow">2.3</div><h2>Nguyên tắc tổ chức</h2><div class="cards two"><article><b>Chức năng công cộng và nội bộ tách rõ</b><span>Chức năng công cộng và nội bộ được tổ chức độc lập về nghiệp vụ.</span></article><article><b>Dùng chung nền tảng quản trị</b><span>Tận dụng chung người dùng, phân quyền, dữ liệu và nhật ký hệ thống.</span></article><article><b>Kế thừa dữ liệu hợp lý</b><span>Ưu tiên giữ dữ liệu hiện có, nhưng có thể tái phân loại hoặc loại bỏ sau khi thống nhất.</span></article><article><b>Không khóa kiến trúc vào dữ liệu cũ</b><span>Các chức năng có nghiệp vụ riêng có thể được tách thành chức năng độc lập.</span></article></div><footer><span>Chương 2 · Tổng quan hệ thống</span><span>11</span></footer></section>
+<section class="page chapter"><div class="chapter-no">03</div><div><div class="eyebrow">CHƯƠNG 3</div><h1>Bản đồ chức năng</h1><p class="lead">Toàn bộ hệ thống được tổ chức thành hai nhóm chức năng chính: công cộng và nội bộ, với 11 nhóm chức năng cấp cao cùng sử dụng các năng lực nền tảng chung.</p></div><footer><span>Chương 3 · Bản đồ chức năng</span><span>12</span></footer></section>
 <section class="page">
-  <div class="eyebrow">3.1</div>
-  <h2>Bản đồ chức năng tổng thể</h2>
-  <div class="functional-map">
-    <div class="map-column public-map">
-      <div class="map-head">
-        <span>01</span>
-        <div><small>NHÓM CHỨC NĂNG</small><b>Chức năng công cộng</b></div>
-      </div>
-      <div class="map-items">
-        <article><strong>Cổng thông tin công cộng</strong><span>Truy cập, tra cứu và liên hệ với Bệnh viện.</span></article>
-        <article><strong>Thông tin bệnh viện</strong><span>Giới thiệu, đơn vị trực thuộc, chuyên khoa, bác sĩ, dịch vụ và thông tin chính thức.</span></article>
-        <article><strong>Tin tức, thông báo & hướng dẫn</strong><span>Công bố nội dung phục vụ người dân và các dữ liệu kế thừa phù hợp.</span></article>
-        <article><strong>Đăng ký khám</strong><span>Hỗ trợ người dân thực hiện đăng ký khám trực tuyến.</span></article>
-        <article><strong>Tuyển dụng</strong><span>Công bố đợt tuyển dụng, vị trí, yêu cầu và thời hạn.</span></article>
-      </div>
-    </div>
-    <div class="map-spine">
-      <span>NỀN TẢNG DÙNG CHUNG</span>
-      <b>Người dùng</b>
-      <b>Phân quyền</b>
-      <b>Nội dung</b>
-      <b>Nhật ký hoạt động</b>
-      <b>Dữ liệu dùng chung</b>
-    </div>
-    <div class="map-column internal-map">
-      <div class="map-head">
-        <span>02</span>
-        <div><small>NHÓM CHỨC NĂNG</small><b>Chức năng nội bộ</b></div>
-      </div>
-      <div class="map-items">
-        <article><strong>Biên tập & xuất bản nội dung</strong><span>Tạo, chỉnh sửa, phê duyệt và xuất bản nội dung.</span></article>
-        <article><strong>Người dùng & phân quyền</strong><span>Quản lý tài khoản, vai trò, đơn vị và phạm vi sử dụng.</span></article>
-        <article><strong>Điều hành</strong><span>Theo dõi hoạt động, số liệu và các chỉ số tổng hợp.</span></article>
-        <article><strong>Báo cáo nội bộ</strong><span>CTQLCSNB và các báo cáo khác khi được thống nhất phạm vi.</span></article>
-        <article><strong>Quản trị hệ thống</strong><span>Cấu hình, danh mục, nhật ký và công tác vận hành.</span></article>
-      </div>
-    </div>
-  </div>
-  <footer><span>Chương 3 · Bản đồ chức năng</span><span>13</span></footer>
+<div class="eyebrow">3.1</div>
+<h2>Bản đồ chức năng tổng thể</h2>
+<div class="functional-map">
+<div class="map-column public-map">
+<div class="map-head">
+<span>01</span>
+<div><small>NHÓM CHỨC NĂNG</small><b>Chức năng công cộng</b></div>
+</div>
+<div class="map-items">
+<article><strong>Cổng thông tin công cộng</strong><span>Truy cập, tra cứu và liên hệ với Bệnh viện.</span></article>
+<article><strong>Thông tin bệnh viện</strong><span>Giới thiệu, đơn vị trực thuộc, chuyên khoa, bác sĩ, lịch khám, dịch vụ và thông tin chính thức.</span></article>
+<article><strong>Tin tức, thông báo &amp; hướng dẫn</strong><span>Công bố nội dung phục vụ người dân và các dữ liệu kế thừa phù hợp.</span></article>
+<article><strong>Đăng ký khám</strong><span>Hỗ trợ người dân thực hiện đăng ký khám trực tuyến.</span></article>
+<article><strong>Tuyển dụng</strong><span>Công bố đợt tuyển dụng, vị trí, yêu cầu và thời hạn.</span></article>
+</div>
+</div>
+<div class="map-spine">
+<span>NỀN TẢNG DÙNG CHUNG</span>
+<b>Người dùng</b>
+<b>Phân quyền</b>
+<b>Nội dung</b>
+<b>Nhật ký hoạt động</b>
+<b>Dữ liệu dùng chung</b>
+</div>
+<div class="map-column internal-map">
+<div class="map-head">
+<span>02</span>
+<div><small>NHÓM CHỨC NĂNG</small><b>Chức năng nội bộ</b></div>
+</div>
+<div class="map-items">
+<article><strong>Biên tập &amp; xuất bản nội dung</strong><span>Tạo, chỉnh sửa, phê duyệt và xuất bản nội dung.</span></article>
+<article><strong>Quản lý lịch khám</strong><span>Quản lý lịch theo chuyên khoa, bác sĩ, ngày khám và trạng thái nhận đăng ký.</span></article>
+<article><strong>Người dùng &amp; phân quyền</strong><span>Quản lý tài khoản, vai trò, đơn vị và phạm vi sử dụng.</span></article>
+<article><strong>Điều hành</strong><span>Theo dõi hoạt động, số liệu và các chỉ số tổng hợp.</span></article>
+<article><strong>Báo cáo nội bộ</strong><span>CTQLCSNB và các báo cáo khác khi được thống nhất phạm vi.</span></article>
+<article><strong>Quản trị hệ thống</strong><span>Cấu hình, danh mục, nhật ký và công tác vận hành.</span></article>
+</div>
+</div>
+</div>
+<footer><span>Chương 3 · Bản đồ chức năng</span><span>13</span></footer>
 </section>
 <section class="page">
-  <div class="eyebrow">3.2</div>
-  <h2>Phạm vi triển khai theo nhóm chức năng</h2>
-  <table class="scope-table">
-    <thead><tr><th>Nhóm chức năng</th><th>Phạm vi hiện tại</th><th>Ghi chú</th></tr></thead>
-    <tbody>
-      <tr><td>Cổng thông tin công cộng</td><td><span class="status main">Triển khai</span></td><td>Nền tảng truy cập chính cho người dân.</td></tr>
-      <tr><td>Thông tin bệnh viện</td><td><span class="status main">Triển khai</span></td><td>Kế thừa và chuẩn hóa dữ liệu phù hợp.</td></tr>
-      <tr><td>Tin tức, thông báo & hướng dẫn</td><td><span class="status main">Triển khai</span></td><td>Ưu tiên tái sử dụng dữ liệu hiện có.</td></tr>
-      <tr><td>Đăng ký khám</td><td><span class="status main">Triển khai</span></td><td>Chi tiết nghiệp vụ sẽ được đặc tả ở chương sau.</td></tr>
-      <tr><td>Tuyển dụng</td><td><span class="status main">Triển khai</span></td><td>Tách thành chức năng riêng.</td></tr>
-      <tr><td>Biên tập & xuất bản nội dung</td><td><span class="status main">Triển khai</span></td><td>Bao gồm quy trình biên tập và phê duyệt.</td></tr>
-      <tr><td>Người dùng & phân quyền</td><td><span class="status main">Triển khai</span></td><td>Dùng chung cho các chức năng nội bộ.</td></tr>
-      <tr><td>Điều hành</td><td><span class="status main">Triển khai</span></td><td>Tập trung vào thông tin tổng hợp phục vụ quản lý.</td></tr>
-      <tr><td>Báo cáo nội bộ</td><td><span class="status optional">Tùy chọn</span></td><td>Triển khai khi Bệnh viện thống nhất đưa vào cùng hệ thống.</td></tr>
-      <tr><td>Quản trị hệ thống</td><td><span class="status main">Triển khai</span></td><td>Phục vụ cấu hình và vận hành.</td></tr>
-    </tbody>
-  </table>
-  <div class="note compact">
-    <b>Ghi chú phạm vi</b>
-    <p>Các chức năng tích hợp với hệ thống nghiệp vụ khác và các kênh thông báo đa phương tiện sẽ được xác định sau khi có yêu cầu cụ thể.</p>
-  </div>
-  <footer><span>Chương 3 · Bản đồ chức năng</span><span>14</span></footer>
+<div class="eyebrow">3.2</div>
+<h2>Phạm vi triển khai theo nhóm chức năng</h2>
+<table class="scope-table">
+<thead><tr><th>Nhóm chức năng</th><th>Phạm vi hiện tại</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr><td>Cổng thông tin công cộng</td><td><span class="status main">Triển khai</span></td><td>Nền tảng truy cập chính cho người dân.</td></tr>
+<tr><td>Thông tin bệnh viện</td><td><span class="status main">Triển khai</span></td><td>Kế thừa và chuẩn hóa dữ liệu phù hợp.</td></tr>
+<tr><td>Tin tức, thông báo &amp; hướng dẫn</td><td><span class="status main">Triển khai</span></td><td>Ưu tiên tái sử dụng dữ liệu hiện có.</td></tr>
+<tr><td>Đăng ký khám</td><td><span class="status main">Triển khai</span></td><td>Chi tiết nghiệp vụ sẽ được đặc tả ở chương sau.</td></tr>
+<tr><td>Tuyển dụng</td><td><span class="status main">Triển khai</span></td><td>Tách thành chức năng riêng.</td></tr>
+<tr><td>Biên tập &amp; xuất bản nội dung</td><td><span class="status main">Triển khai</span></td><td>Bao gồm quy trình biên tập và phê duyệt.</td></tr>
+<tr><td>Quản lý lịch khám</td><td><span class="status main">Triển khai</span></td><td>Nguồn dữ liệu cho Lịch khám công cộng và Đăng ký khám.</td></tr>
+<tr><td>Người dùng &amp; phân quyền</td><td><span class="status main">Triển khai</span></td><td>Dùng chung cho các chức năng nội bộ.</td></tr>
+<tr><td>Điều hành</td><td><span class="status main">Triển khai</span></td><td>Tập trung vào thông tin tổng hợp phục vụ quản lý.</td></tr>
+<tr><td>Báo cáo nội bộ</td><td><span class="status optional">Tùy chọn</span></td><td>Triển khai khi Bệnh viện thống nhất đưa vào cùng hệ thống.</td></tr>
+<tr><td>Quản trị hệ thống</td><td><span class="status main">Triển khai</span></td><td>Phục vụ cấu hình và vận hành.</td></tr>
+</tbody>
+</table>
+<div class="note compact">
+<b>Ghi chú phạm vi</b>
+<p>Các chức năng tích hợp với hệ thống nghiệp vụ khác và các kênh thông báo đa phương tiện sẽ được xác định sau khi có yêu cầu cụ thể.</p>
+</div>
+<footer><span>Chương 3 · Bản đồ chức năng</span><span>14</span></footer>
 </section>
-<section class="page chapter"><div class="chapter-no">04</div><div><div class="eyebrow">CHƯƠNG 4</div><h1>Nguyên tắc xây dựng hệ thống</h1><p class="lead">Cơ sở dùng khi chi tiết hóa chức năng ở các sprint tiếp theo.</p></div><footer><span>Chương 4 · Nguyên tắc xây dựng hệ thống</span><span>15</span></footer></section>
-<section class="page"><div class="eyebrow">4.1</div><h2>Nguyên tắc chung</h2><div class="cards two"><article><b>Lấy người sử dụng làm trung tâm</b><span>Chức năng phải rõ ràng, dễ hiểu và phù hợp với nhóm người dùng tương ứng.</span></article><article><b>Kế thừa dữ liệu có chọn lọc</b><span>Dữ liệu hiện hữu được ưu tiên sử dụng lại; danh mục chi tiết sẽ được rà soát cùng Bệnh viện.</span></article><article><b>Phân quyền theo vai trò và đơn vị</b><span>Cán bộ chỉ được thao tác trong phạm vi được phân công.</span></article><article><b>Tách biệt chức năng nội bộ</b><span>Báo cáo và nghiệp vụ nội bộ chỉ dành cho người dùng đã được phân quyền.</span></article><article class="wide"><b>Sẵn sàng mở rộng</b><span>Cho phép bổ sung nội dung, báo cáo và tích hợp khi có nhu cầu.</span></article></div><footer><span>Chương 4 · Nguyên tắc xây dựng hệ thống</span><span>16</span></footer></section>
+<section class="page chapter"><div class="chapter-no">06</div><div><div class="eyebrow">CHƯƠNG 5</div><h1>Nguyên tắc xây dựng hệ thống</h1><p class="lead">Cơ sở dùng khi chi tiết hóa các nhóm chức năng ở các chương tiếp theo.</p></div><footer><span>Chương 5 · Nguyên tắc xây dựng hệ thống</span><span>15</span></footer></section>
+<section class="page"><div class="eyebrow">6.1</div><h2>Nguyên tắc chung</h2><div class="cards two"><article><b>Lấy người sử dụng làm trung tâm</b><span>Chức năng phải rõ ràng, dễ hiểu và phù hợp với nhóm người dùng tương ứng.</span></article><article><b>Kế thừa dữ liệu có chọn lọc</b><span>Dữ liệu hiện hữu được ưu tiên sử dụng lại; danh mục chi tiết sẽ được rà soát cùng Bệnh viện.</span></article><article><b>Phân quyền theo vai trò và đơn vị</b><span>Cán bộ chỉ được thao tác trong phạm vi được phân công.</span></article><article><b>Tách biệt chức năng nội bộ</b><span>Báo cáo và nghiệp vụ nội bộ chỉ dành cho người dùng đã được phân quyền.</span></article><article class="wide"><b>Sẵn sàng mở rộng</b><span>Cho phép bổ sung nội dung, báo cáo và tích hợp khi có nhu cầu.</span></article></div><footer><span>Chương 5 · Nguyên tắc xây dựng hệ thống</span><span>16</span></footer></section>
+<section class="page chapter">
+<div class="chapter-no">05</div>
+<div><div class="eyebrow">CHƯƠNG 6</div><h1>Đặc tả chức năng công cộng</h1><p class="lead">Mô tả phạm vi và yêu cầu nghiệp vụ của các chức năng dành cho người dân và các đối tượng truy cập Cổng thông tin điện tử.</p></div>
+<footer><span>Chương 6 · Đặc tả chức năng công cộng</span><span>17</span></footer>
+</section>
+<section class="page">
+<div class="eyebrow">6.1</div><h2>Cổng thông tin công cộng</h2>
+<table class="spec-summary"><tbody>
+<tr><th>Mục tiêu</th><td>Cung cấp một điểm truy cập thống nhất để người dân tìm kiếm, tra cứu thông tin và tiếp cận các dịch vụ trực tuyến của Bệnh viện.</td></tr>
+<tr><th>Đối tượng sử dụng</th><td>Người dân, người bệnh, người nhà người bệnh và các đối tượng có nhu cầu tìm hiểu thông tin.</td></tr>
+<tr><th>Phạm vi</th><td>Tra cứu thông tin, tìm kiếm, liên hệ và truy cập các nhóm chức năng công cộng khác.</td></tr>
+</tbody></table>
+<h3>Yêu cầu chức năng</h3>
+<table class="req-table"><thead><tr><th>Mã</th><th>Yêu cầu</th></tr></thead><tbody>
+<tr><td>F-6.1-01</td><td>Cho phép người dùng truy cập các thông tin công cộng mà không cần đăng nhập.</td></tr>
+<tr><td>F-6.1-02</td><td>Cho phép tìm kiếm thông tin trên toàn bộ nội dung công cộng của hệ thống.</td></tr>
+<tr><td>F-6.1-03</td><td>Cho phép truy cập đến các nhóm thông tin và dịch vụ trực tuyến trong phạm vi được công bố.</td></tr>
+<tr><td>F-6.1-04</td><td>Cung cấp thông tin liên hệ chính thức của Bệnh viện.</td></tr>
+<tr><td>F-6.1-05</td><td>Chỉ hiển thị các nội dung đã được phép công bố.</td></tr>
+</tbody></table>
+<div class="note compact"><b>Ghi chú</b><p>Trang chủ, menu và các thành phần giao diện là cách thể hiện; đặc tả này tập trung vào khả năng mà hệ thống phải cung cấp.</p></div>
+<footer><span>Chương 6 · Đặc tả chức năng công cộng</span><span>18</span></footer>
+</section>
+<section class="page">
+<div class="eyebrow">6.2</div><h2>Thông tin bệnh viện</h2>
+<table class="spec-summary"><tbody>
+<tr><th>Mục tiêu</th><td>Cung cấp các thông tin chính thức về Bệnh viện để người dân dễ dàng tìm hiểu trước khi sử dụng dịch vụ.</td></tr>
+<tr><th>Đối tượng sử dụng</th><td>Người dân, người bệnh, người nhà người bệnh, đối tác và cơ quan liên quan.</td></tr>
+<tr><th>Đặc điểm dữ liệu</th><td>Kết hợp nội dung kế thừa và các nhóm dữ liệu có cấu trúc riêng khi cần.</td></tr>
+</tbody></table>
+<h3>Nhóm thông tin</h3>
+<div class="spec-columns"><div><ul class="spec-list">
+<li><b>Giới thiệu</b><span>Lịch sử, sứ mệnh, tầm nhìn, Ban Giám đốc và cơ cấu tổ chức.</span></li>
+<li><b>Đơn vị trực thuộc</b><span>Khoa, phòng, trung tâm và các đơn vị khác.</span></li>
+<li><b>Chuyên khoa</b><span>Thông tin theo lĩnh vực chuyên môn phục vụ nhu cầu tra cứu của người dân.</span></li>
+<li><b>Đội ngũ bác sĩ</b><span>Thông tin chuyên môn, đơn vị công tác và các nội dung liên quan.</span></li>
+<li><b>Lịch khám</b><span>Lịch được công bố theo chuyên khoa, bác sĩ và ngày; có thể chuyển trực tiếp sang Đăng ký khám.</span></li>
+</ul></div><div><ul class="spec-list">
+<li><b>Dịch vụ kỹ thuật</b><span>Danh mục và thông tin giới thiệu các dịch vụ phù hợp để công khai.</span></li>
+<li><b>Trang thiết bị</b><span>Thông tin giới thiệu các trang thiết bị nổi bật khi cần.</span></li>
+<li><b>Thành tựu / điểm nổi bật</b><span>Các nội dung giới thiệu có giá trị công khai.</span></li>
+<li><b>Thông tin liên hệ</b><span>Địa chỉ, số điện thoại và thông tin liên hệ chính thức.</span></li>
+</ul></div></div>
+<h3>Yêu cầu chính</h3>
+<table class="req-table"><tbody>
+<tr><td>F-6.2-01</td><td>Cho phép quản lý từng nhóm thông tin độc lập nhưng thống nhất cách công bố.</td></tr>
+<tr><td>F-6.2-02</td><td>Cho phép liên kết giữa đơn vị trực thuộc, chuyên khoa và bác sĩ khi dữ liệu có quan hệ.</td></tr>
+<tr><td>F-6.2-03</td><td>Ưu tiên kế thừa dữ liệu hiện có; chỉ tái cấu trúc khi cần cho nghiệp vụ mới.</td></tr>
+<tr><td>F-6.2-04</td><td>Các nội dung giới thiệu đơn giản có thể tiếp tục được quản lý theo mô hình nội dung dùng chung.</td></tr>
+</tbody></table>
+<footer><span>Chương 6 · Đặc tả chức năng công cộng</span><span>19</span></footer>
+</section>
+<section class="page">
+<div class="eyebrow">6.2.1</div>
+<h2>Lịch khám công khai</h2>
+<table class="spec-summary">
+<tbody>
+<tr><th>Mục tiêu</th><td>Giúp người dân chủ động xem lịch khám trước khi quyết định đăng ký.</td></tr>
+<tr><th>Nguồn dữ liệu</th><td>Chức năng Quản lý lịch khám trong khu vực nội bộ.</td></tr>
+<tr><th>Liên kết nghiệp vụ</th><td>Người dùng có thể chuyển từ một lịch đang xem sang chức năng Đăng ký khám.</td></tr>
+</tbody>
+</table>
+<h3>Yêu cầu chức năng</h3>
+<table class="req-table">
+<tbody>
+<tr><td>F-6.2.1-01</td><td>Cho phép xem các lịch khám đang được Bệnh viện công bố.</td></tr>
+<tr><td>F-6.2.1-02</td><td>Cho phép lọc lịch theo chuyên khoa, bác sĩ và ngày khám khi dữ liệu tương ứng được áp dụng.</td></tr>
+<tr><td>F-6.2.1-03</td><td>Hiển thị rõ trạng thái còn nhận đăng ký hoặc ngừng nhận đăng ký.</td></tr>
+<tr><td>F-6.2.1-04</td><td>Cho phép chuyển trực tiếp từ lịch đang xem sang chức năng Đăng ký khám.</td></tr>
+<tr><td>F-6.2.1-05</td><td>Khi chuyển sang Đăng ký khám, hệ thống phải giữ lại các thông tin lịch đã chọn để giảm thao tác nhập lại.</td></tr>
+<tr><td>F-6.2.1-06</td><td>Không cho phép tiếp tục đăng ký nếu lịch đã đóng hoặc không còn nhận đăng ký tại thời điểm xác nhận.</td></tr>
+</tbody>
+</table>
+<footer><span>Chương 6 · Đặc tả chức năng công cộng</span><span>20</span></footer>
+</section>
+<section class="page">
+<div class="eyebrow">6.3</div><h2>Tin tức, thông báo &amp; hướng dẫn</h2>
+<table class="spec-summary"><tbody>
+<tr><th>Mục tiêu</th><td>Quản lý và công bố các nội dung chính thức của Bệnh viện theo từng nhóm thông tin dễ nhận biết.</td></tr>
+<tr><th>Đặc điểm</th><td>Phần lớn là dữ liệu dạng bài viết và có thể kế thừa từ hệ thống hiện tại.</td></tr>
+<tr><th>Nguyên tắc</th><td>Không mặc định giữ toàn bộ loại nội dung cũ; danh mục cuối cùng được xác định sau khi rà soát cùng Bệnh viện.</td></tr>
+</tbody></table>
+<h3>Nhóm nội dung dự kiến</h3>
+<table class="content-type-table"><thead><tr><th>Nhóm</th><th>Mô tả</th><th>Định hướng dữ liệu</th></tr></thead><tbody>
+<tr><td>Tin tức</td><td>Tin hoạt động, thông tin truyền thông và các nội dung thời sự của Bệnh viện.</td><td>Kế thừa / tổ chức lại</td></tr>
+<tr><td>Thông báo</td><td>Thông tin cần công bố đến người dân hoặc các đối tượng liên quan.</td><td>Kế thừa / tổ chức lại</td></tr>
+<tr><td>Hướng dẫn người dân</td><td>Quy trình khám, BHYT, nhập viện, xuất viện và các hướng dẫn khác.</td><td>Kế thừa dạng bài viết</td></tr>
+<tr><td>Câu hỏi thường gặp</td><td>Các câu hỏi và trả lời ngắn theo chủ đề.</td><td>Có thể cấu trúc riêng</td></tr>
+<tr><td>Văn bản / tài liệu</td><td>Nội dung có tệp đính kèm hoặc tài liệu công khai.</td><td>Kế thừa có chọn lọc</td></tr>
+<tr><td>Nội dung khác</td><td>Các loại bài viết hiện hữu còn giá trị sử dụng.</td><td>Rà soát cùng Bệnh viện</td></tr>
+</tbody></table>
+<footer><span>Chương 6 · Đặc tả chức năng công cộng</span><span>21</span></footer>
+</section>
+<section class="page">
+<div class="eyebrow">6.3</div><h2>Yêu cầu quản lý nội dung công cộng</h2>
+<table class="req-table"><thead><tr><th>Mã</th><th>Yêu cầu</th></tr></thead><tbody>
+<tr><td>F-6.3-01</td><td>Mỗi nội dung phải thuộc một nhóm nội dung được cấu hình trong hệ thống.</td></tr>
+<tr><td>F-6.3-02</td><td>Cho phép phân loại nội dung theo chuyên mục hoặc chủ đề khi cần.</td></tr>
+<tr><td>F-6.3-03</td><td>Cho phép nội dung có ảnh đại diện, tệp đính kèm và các thông tin bổ sung tùy theo loại.</td></tr>
+<tr><td>F-6.3-04</td><td>Chỉ nội dung đã được phê duyệt và xuất bản mới được hiển thị công khai.</td></tr>
+<tr><td>F-6.3-05</td><td>Cho phép tìm kiếm và lọc nội dung theo nhóm phù hợp.</td></tr>
+<tr><td>F-6.3-06</td><td>Cho phép tái sử dụng dữ liệu cũ sau khi được rà soát và ánh xạ sang nhóm nội dung mới.</td></tr>
+<tr><td>F-6.3-07</td><td>Cho phép ngừng sử dụng các loại nội dung cũ không còn nhu cầu mà không ảnh hưởng đến các nhóm còn lại.</td></tr>
+</tbody></table>
+<div class="note compact"><b>Nguyên tắc kế thừa</b><p>Giữ dữ liệu có giá trị, không giữ cấu trúc cũ một cách máy móc. Việc kế thừa, tái phân loại hoặc loại bỏ sẽ được thống nhất khi rà soát dữ liệu.</p></div>
+<footer><span>Chương 6 · Đặc tả chức năng công cộng</span><span>22</span></footer>
+</section>
+<section class="page">
+<div class="eyebrow">6.4</div><h2>Đăng ký khám</h2>
+<table class="spec-summary"><tbody>
+<tr><th>Mục tiêu</th><td>Cho phép người dân chủ động gửi thông tin đăng ký khám trước khi đến Bệnh viện.</td></tr>
+<tr><th>Đối tượng sử dụng</th><td>Người dân hoặc người đăng ký thay cho người bệnh.</td></tr>
+<tr><th>Phạm vi hiện tại</th><td>Cho phép đăng ký trực tiếp từ đầu hoặc khởi tạo từ một lịch khám đã chọn; xác nhận thông tin và tra cứu trạng thái. Phạm vi tích hợp HIS sẽ được xác định riêng nếu có.</td></tr>
+</tbody></table>
+<h3>Điểm khởi tạo quy trình</h3>
+<div class="entry-flow">
+<article>
+<span>CÁCH 1</span>
+<b>Đăng ký trực tiếp</b>
+<small>Người dùng bắt đầu từ chức năng Đăng ký khám và tự chọn chuyên khoa, bác sĩ, lịch.</small>
+</article>
+<div class="entry-merge">→</div>
+<article class="selected">
+<span>CÙNG MỘT QUY TRÌNH</span>
+<b>Đăng ký khám</b>
+<small>Kiểm tra thông tin → nhập thông tin người bệnh → xác nhận.</small>
+</article>
+<div class="entry-merge">←</div>
+<article>
+<span>CÁCH 2</span>
+<b>Đăng ký từ Lịch khám</b>
+<small>Thông tin chuyên khoa, bác sĩ và lịch đã chọn được chuyển sang để bỏ qua các bước tương ứng.</small>
+</article>
+</div>
+<h3>Yêu cầu chức năng</h3>
+<table class="req-table"><tbody>
+<tr><td>F-6.4-01</td><td>Cho phép người dân chọn chuyên khoa hoặc nhu cầu khám.</td></tr>
+<tr><td>F-6.4-02</td><td>Cho phép chọn bác sĩ khi Bệnh viện áp dụng hình thức đăng ký theo bác sĩ.</td></tr>
+<tr><td>F-6.4-03</td><td>Cho phép chọn lịch từ các lịch đang mở nhận đăng ký.</td></tr>
+<tr><td>F-6.4-04</td><td>Cho phép khởi tạo đăng ký từ chức năng Lịch khám và tự động nhận các thông tin lịch đã chọn.</td></tr>
+<tr><td>F-6.4-05</td><td>Thu thập các thông tin cần thiết để tiếp nhận đăng ký.</td></tr>
+<tr><td>F-6.4-06</td><td>Cho phép người dùng kiểm tra lại thông tin trước khi xác nhận.</td></tr>
+<tr><td>F-6.4-07</td><td>Ghi nhận trạng thái đăng ký để phục vụ tra cứu và xử lý.</td></tr>
+</tbody></table>
+<footer><span>Chương 6 · Đặc tả chức năng công cộng</span><span>23</span></footer>
+</section>
+<section class="page">
+<div class="eyebrow">6.4</div><h2>Quy tắc nghiệp vụ đăng ký khám</h2>
+<table class="business-rules"><thead><tr><th>Mã</th><th>Quy tắc</th></tr></thead><tbody>
+<tr><td>BR-6.4-01</td><td>Chỉ cho phép đăng ký trên các lịch đang mở nhận đăng ký.</td></tr>
+<tr><td>BR-6.4-02</td><td>Nếu quy trình được khởi tạo từ Lịch khám, thông tin lịch đã chọn phải được giữ lại và kiểm tra lại trạng thái trước khi xác nhận.</td></tr>
+<tr><td>BR-6.4-03</td><td>Thông tin bắt buộc phải được kiểm tra trước khi ghi nhận đăng ký.</td></tr>
+<tr><td>BR-6.4-04</td><td>Hệ thống phải hạn chế việc gửi lặp lại cùng một yêu cầu khi có thể xác định rõ đăng ký trùng.</td></tr>
+<tr><td>BR-6.4-05</td><td>Trạng thái đăng ký phải được quản lý rõ ràng và có thể tra cứu theo thông tin xác thực phù hợp.</td></tr>
+<tr><td>BR-6.4-06</td><td>Việc hủy hoặc thay đổi lịch chỉ áp dụng khi Bệnh viện cho phép và sẽ được đặc tả chi tiết sau khi thống nhất nghiệp vụ.</td></tr>
+<tr><td>BR-6.4-07</td><td>Nếu có tích hợp với hệ thống nghiệp vụ khác, dữ liệu và quy trình đồng bộ sẽ được đặc tả riêng.</td></tr>
+</tbody></table>
+<h3>Use Case dự kiến</h3>
+<table class="usecase-index"><thead><tr><th>Mã</th><th>Use Case</th><th>Ghi chú</th></tr></thead><tbody>
+<tr><td>UC-6.4-01</td><td>Đăng ký khám</td><td>Use Case chính</td></tr>
+<tr><td>UC-6.4-02</td><td>Tra cứu trạng thái đăng ký</td><td>Đặc tả ở chương Use Case</td></tr>
+<tr><td>UC-6.4-03</td><td>Hủy / thay đổi đăng ký</td><td>Tùy theo phạm vi thống nhất</td></tr>
+</tbody></table>
+<footer><span>Chương 6 · Đặc tả chức năng công cộng</span><span>24</span></footer>
+</section>
+<section class="page">
+<div class="eyebrow">6.5</div><h2>Tuyển dụng</h2>
+<table class="spec-summary"><tbody>
+<tr><th>Mục tiêu</th><td>Quản lý và công bố thông tin tuyển dụng theo cấu trúc rõ ràng, hỗ trợ người quan tâm tra cứu các đợt và vị trí còn hiệu lực.</td></tr>
+<tr><th>Đối tượng sử dụng</th><td>Người có nhu cầu tìm việc và các đơn vị phụ trách công tác tuyển dụng.</td></tr>
+<tr><th>Định hướng</th><td>Tách khỏi nội dung bài viết thông thường; hỗ trợ người ứng tuyển nộp hồ sơ trực tuyến và Bệnh viện tiếp nhận hồ sơ trong cùng hệ thống.</td></tr>
+</tbody></table>
+<h3>Thông tin quản lý</h3>
+<table class="content-type-table"><thead><tr><th>Thông tin</th><th>Mô tả</th></tr></thead><tbody>
+<tr><td>Đợt tuyển dụng</td><td>Thông tin chung của một đợt tuyển dụng.</td></tr>
+<tr><td>Vị trí tuyển</td><td>Vị trí, số lượng, đơn vị và yêu cầu tương ứng.</td></tr>
+<tr><td>Thời hạn</td><td>Thời điểm bắt đầu và kết thúc nhận hồ sơ.</td></tr>
+<tr><td>Trạng thái</td><td>Đang nhận hồ sơ, hết hạn hoặc trạng thái khác theo quy định.</td></tr>
+<tr><td>Tài liệu</td><td>Thông báo, biểu mẫu hoặc tệp đính kèm.</td></tr>
+<tr><td>Hướng dẫn nộp hồ sơ</td><td>Cách thức, địa điểm hoặc kênh tiếp nhận hồ sơ.</td></tr>
+</tbody></table>
+<h3>Yêu cầu chức năng</h3>
+<table class="req-table"><tbody>
+<tr><td>F-6.5-01</td><td>Cho phép công bố các đợt tuyển dụng và các vị trí thuộc từng đợt.</td></tr>
+<tr><td>F-6.5-02</td><td>Cho phép người dùng tra cứu các đợt tuyển dụng còn hiệu lực.</td></tr>
+<tr><td>F-6.5-03</td><td>Cho phép hiển thị thời hạn và trạng thái của đợt tuyển dụng.</td></tr>
+<tr><td>F-6.5-04</td><td>Cho phép đính kèm tài liệu và hướng dẫn nộp hồ sơ.</td></tr>
+<tr><td>F-6.5-05</td><td>Cho phép người ứng tuyển điền thông tin và nộp hồ sơ trực tuyến cho vị trí đang nhận hồ sơ.</td></tr>
+<tr><td>F-6.5-06</td><td>Cho phép đính kèm CV và các tài liệu theo yêu cầu của đợt tuyển dụng.</td></tr>
+<tr><td>F-6.5-07</td><td>Thông báo cho người ứng tuyển khi hồ sơ đã được hệ thống ghi nhận.</td></tr>
+</tbody></table>
+<footer><span>Chương 6 · Đặc tả chức năng công cộng</span><span>25</span></footer>
+</section>
+<section class="page">
+<div class="eyebrow">6.5.1</div>
+<h2>Nộp hồ sơ tuyển dụng trực tuyến</h2>
+<table class="spec-summary">
+<tbody>
+<tr><th>Mục tiêu</th><td>Giảm thao tác cho người ứng tuyển khi đang xem thông tin tuyển dụng trên Cổng thông tin.</td></tr>
+<tr><th>Điểm khởi tạo</th><td>Từ một đợt hoặc vị trí tuyển dụng đang nhận hồ sơ.</td></tr>
+<tr><th>Kết quả</th><td>Hồ sơ được ghi nhận và chuyển sang chức năng Quản lý hồ sơ tuyển dụng.</td></tr>
+</tbody>
+</table>
+<h3>Yêu cầu chức năng</h3>
+<table class="req-table">
+<tbody>
+<tr><td>F-6.5.1-01</td><td>Chỉ cho phép nộp hồ sơ đối với đợt hoặc vị trí còn trong thời hạn nhận hồ sơ.</td></tr>
+<tr><td>F-6.5.1-02</td><td>Thu thập các thông tin ứng viên theo yêu cầu của Bệnh viện.</td></tr>
+<tr><td>F-6.5.1-03</td><td>Cho phép tải lên CV và các tài liệu được yêu cầu.</td></tr>
+<tr><td>F-6.5.1-04</td><td>Kiểm tra thông tin bắt buộc trước khi ghi nhận hồ sơ.</td></tr>
+<tr><td>F-6.5.1-05</td><td>Ghi nhận hồ sơ theo đúng đợt tuyển dụng và vị trí ứng tuyển.</td></tr>
+<tr><td>F-6.5.1-06</td><td>Cung cấp xác nhận sau khi hồ sơ được tiếp nhận thành công.</td></tr>
+</tbody>
+</table>
+<div class="note compact">
+<b>Giới hạn</b>
+<p>Không bao gồm chấm điểm ứng viên, tổ chức phỏng vấn, hợp đồng lao động hoặc các nghiệp vụ quản trị nhân sự khác.</p>
+</div>
+<footer><span>Chương 6 · Đặc tả chức năng công cộng</span><span>26</span></footer>
+</section>
+<section class="page">
+<div class="eyebrow">6.6</div><h2>Tóm tắt chức năng công cộng</h2>
+<table class="summary-matrix"><thead><tr><th>Nhóm chức năng</th><th>Bản chất nghiệp vụ</th><th>Kế thừa dữ liệu</th><th>Mức độ tương tác</th></tr></thead><tbody>
+<tr><td>Cổng thông tin công cộng</td><td>Điểm truy cập chung</td><td>Không áp dụng</td><td>Thấp</td></tr>
+<tr><td>Thông tin bệnh viện</td><td>Thông tin có cấu trúc</td><td>Có</td><td>Thấp</td></tr>
+<tr><td>Tin tức, thông báo &amp; hướng dẫn</td><td>Nội dung / bài viết</td><td>Ưu tiên</td><td>Thấp</td></tr>
+<tr><td>Đăng ký khám</td><td>Nghiệp vụ tương tác</td><td>Không</td><td>Cao</td></tr>
+<tr><td>Tuyển dụng</td><td>Thông tin + tiếp nhận hồ sơ</td><td>Có thể chuyển đổi</td><td>Cao</td></tr>
+</tbody></table>
+<div class="note"><b>Kết quả của Chương 5</b><p>Năm nhóm chức năng công cộng đã được xác định ở mức yêu cầu nghiệp vụ. Các Use Case chi tiết sẽ được mô tả ở chương riêng sau khi phạm vi được Bệnh viện thống nhất.</p></div>
+<footer><span>Chương 6 · Đặc tả chức năng công cộng</span><span>27</span></footer>
+</section>
+<section class="page chapter">
+<div class="chapter-no">07</div>
+<div>
+<div class="eyebrow">CHƯƠNG 7</div>
+<h1>Đặc tả chức năng nội bộ liên quan</h1>
+<p class="lead">Mô tả các chức năng nội bộ trực tiếp tạo dữ liệu hoặc tiếp nhận dữ liệu từ các dịch vụ công cộng.</p>
+</div>
+<footer><span>Chương 7 · Đặc tả chức năng nội bộ liên quan</span><span>28</span></footer>
+</section>
+<section class="page">
+<div class="eyebrow">7.1</div>
+<h2>Quản lý lịch khám</h2>
+<table class="spec-summary">
+<tbody>
+<tr><th>Mục tiêu</th><td>Quản lý nguồn dữ liệu lịch khám được công bố cho người dân và sử dụng trong quy trình Đăng ký khám.</td></tr>
+<tr><th>Đối tượng</th><td>Cán bộ được phân quyền theo đơn vị hoặc phạm vi quản lý.</td></tr>
+<tr><th>Liên quan</th><td>Chuyên khoa, bác sĩ, Lịch khám công khai và Đăng ký khám.</td></tr>
+</tbody>
+</table>
+<h3>Yêu cầu chức năng</h3>
+<table class="req-table">
+<tbody>
+<tr><td>F-7.1-01</td><td>Cho phép tạo và cập nhật lịch theo khoa hoặc chuyên khoa.</td></tr>
+<tr><td>F-7.1-02</td><td>Cho phép gắn bác sĩ vào lịch khi Bệnh viện áp dụng lịch theo bác sĩ.</td></tr>
+<tr><td>F-7.1-03</td><td>Quản lý ngày khám, khung giờ và thông tin cần thiết của lịch.</td></tr>
+<tr><td>F-7.1-04</td><td>Cho phép thiết lập số lượng tiếp nhận hoặc giới hạn đăng ký khi áp dụng.</td></tr>
+<tr><td>F-7.1-05</td><td>Quản lý trạng thái: mở đăng ký, tạm ngừng hoặc đóng đăng ký.</td></tr>
+<tr><td>F-7.1-06</td><td>Cho phép xác định lịch nào được công bố trên Cổng thông tin.</td></tr>
+<tr><td>F-7.1-07</td><td>Phân quyền cập nhật lịch theo đơn vị hoặc phạm vi được giao.</td></tr>
+</tbody>
+</table>
+<footer><span>Chương 7 · Đặc tả chức năng nội bộ liên quan</span><span>29</span></footer>
+</section>
+<section class="page">
+<div class="eyebrow">7.2</div>
+<h2>Tiếp nhận đăng ký khám</h2>
+<table class="spec-summary">
+<tbody>
+<tr><th>Mục tiêu</th><td>Ghi nhận và theo dõi các đăng ký khám được gửi từ Cổng thông tin khi chưa có hoặc chưa áp dụng tích hợp trực tiếp với hệ thống nghiệp vụ khác.</td></tr>
+<tr><th>Nguồn dữ liệu</th><td>Chức năng Đăng ký khám.</td></tr>
+<tr><th>Phạm vi</th><td>Tra cứu, theo dõi và cập nhật trạng thái ở mức cần thiết cho quy trình tiếp nhận.</td></tr>
+</tbody>
+</table>
+<h3>Yêu cầu chức năng</h3>
+<table class="req-table">
+<tbody>
+<tr><td>F-7.2-01</td><td>Hiển thị danh sách đăng ký theo ngày, chuyên khoa, bác sĩ hoặc trạng thái khi có dữ liệu tương ứng.</td></tr>
+<tr><td>F-7.2-02</td><td>Cho phép xem đầy đủ thông tin của một đăng ký.</td></tr>
+<tr><td>F-7.2-03</td><td>Cho phép cập nhật trạng thái xử lý theo quy trình được Bệnh viện thống nhất.</td></tr>
+<tr><td>F-7.2-04</td><td>Ghi nhận lịch sử thay đổi trạng thái và người thực hiện.</td></tr>
+<tr><td>F-7.2-05</td><td>Nếu có tích hợp với hệ thống nghiệp vụ khác, cơ chế tiếp nhận và đồng bộ sẽ được đặc tả riêng.</td></tr>
+</tbody>
+</table>
+<footer><span>Chương 7 · Đặc tả chức năng nội bộ liên quan</span><span>30</span></footer>
+</section>
+<section class="page">
+<div class="eyebrow">7.3</div>
+<h2>Quản lý hồ sơ tuyển dụng</h2>
+<table class="spec-summary">
+<tbody>
+<tr><th>Mục tiêu</th><td>Giúp đơn vị phụ trách tiếp nhận và quản lý các hồ sơ được nộp trực tuyến qua Cổng thông tin.</td></tr>
+<tr><th>Nguồn dữ liệu</th><td>Chức năng Nộp hồ sơ tuyển dụng trực tuyến.</td></tr>
+<tr><th>Giới hạn</th><td>Không thay thế phần mềm quản trị nhân sự.</td></tr>
+</tbody>
+</table>
+<h3>Yêu cầu chức năng</h3>
+<table class="req-table">
+<tbody>
+<tr><td>F-7.3-01</td><td>Cho phép tra cứu hồ sơ theo đợt tuyển dụng, vị trí và thời gian nộp.</td></tr>
+<tr><td>F-7.3-02</td><td>Cho phép xem thông tin ứng viên và các tài liệu đính kèm.</td></tr>
+<tr><td>F-7.3-03</td><td>Cho phép cập nhật trạng thái xử lý hồ sơ theo danh mục được cấu hình.</td></tr>
+<tr><td>F-7.3-04</td><td>Cho phép ghi chú nội bộ khi xử lý hồ sơ nếu Bệnh viện có nhu cầu.</td></tr>
+<tr><td>F-7.3-05</td><td>Cho phép lọc và xuất danh sách hồ sơ phục vụ công tác tổng hợp.</td></tr>
+<tr><td>F-7.3-06</td><td>Chỉ người dùng được phân quyền mới được xem hoặc xử lý hồ sơ ứng tuyển.</td></tr>
+</tbody>
+</table>
+<footer><span>Chương 7 · Đặc tả chức năng nội bộ liên quan</span><span>31</span></footer>
+</section>
 </main></body></html>

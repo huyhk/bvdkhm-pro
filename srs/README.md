@@ -1,13 +1,17 @@
-# SRS - Giai đoạn 1 - M2
+# SRS - Giai đoạn 1 - M4
 
-Phiên bản 0.1 (Dự thảo)
+Phiên bản 0.3 (Dự thảo)
 
-Nội dung M2:
-- Chuẩn hóa thuật ngữ tiếng Việt.
-- Không dùng Public, Internal, Sprint, Feature, Dashboard trong nội dung khách hàng.
-- Giữ thuật ngữ Use Case.
-- Thiết kế lại Chương 3 thành bản đồ chức năng tổng thể.
-- Bổ sung phạm vi triển khai theo nhóm chức năng.
-- Chuẩn hóa phong cách trình bày để dùng cho các chương tiếp theo.
+M4 bổ sung và cập nhật:
+- Chương 4: Quan hệ giữa các nhóm chức năng.
+- Bản đồ chức năng tăng lên 11 nhóm cấp cao với Quản lý lịch khám.
+- Lịch khám công khai lấy dữ liệu từ Quản lý lịch khám.
+- Đăng ký khám có hai điểm khởi tạo:
+  1. Truy cập trực tiếp và bắt đầu từ đầu.
+  2. Khởi tạo từ một lịch khám đã chọn, giữ lại ngữ cảnh để giảm thao tác.
+- Tuyển dụng hỗ trợ nộp hồ sơ trực tuyến.
+- Bổ sung Quản lý hồ sơ tuyển dụng ở chức năng nội bộ.
+- Bổ sung Tiếp nhận đăng ký khám ở chức năng nội bộ.
+- Bổ sung ma trận phụ thuộc chức năng.
 
 Mở `index.html` để rà soát.

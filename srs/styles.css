@@ -87,3 +87,193 @@ td{line-height:1.45}
   .map-spine{order:2}
   .internal-map{order:3}
 }
+
+
+/* =========================================================
+   M3 — Chương 5: Đặc tả chức năng công cộng
+   ========================================================= */
+.spec-summary{margin-bottom:24px}.spec-summary th{width:180px;font-size:11px;color:#36576d;background:#f2f7fa}.spec-summary td{font-size:13px;color:#35556b}
+.req-table td:first-child,.business-rules td:first-child,.usecase-index td:first-child{width:110px;font-weight:800;color:var(--blue);white-space:nowrap}
+.spec-columns{display:grid;grid-template-columns:1fr 1fr;gap:22px}.spec-list{list-style:none;margin:0;padding:0}.spec-list li{padding:12px 0;border-bottom:1px solid var(--line)}.spec-list li:last-child{border-bottom:0}.spec-list b{display:block;font-size:13px;margin-bottom:4px}.spec-list span{display:block;font-size:11px;line-height:1.45;color:var(--muted)}
+.content-type-table td:first-child{width:190px;font-weight:700;color:#24465e}.content-type-table td:nth-child(3){width:190px}
+.flow{display:grid;grid-template-columns:1fr 32px 1fr 32px 1fr 32px 1fr;gap:8px;align-items:center;margin:14px 0 26px}.flow>div{border:1px solid var(--line);border-radius:16px;padding:16px;min-height:112px;background:#fff}.flow>div span{display:block;font-size:9px;letter-spacing:.1em;color:var(--blue);font-weight:800;margin-bottom:12px}.flow>div b{display:block;font-size:14px;margin-bottom:5px}.flow>div small{display:block;font-size:10px;color:var(--muted);line-height:1.4}.flow>i{font-style:normal;text-align:center;color:#8ba7b9;font-size:20px}
+.summary-matrix td:first-child{font-weight:700;color:#24465e}
+@media(max-width:1180px){.spec-columns{grid-template-columns:1fr}.flow{grid-template-columns:1fr}.flow>i{transform:rotate(90deg)}}
+
+
+/* =========================================================
+   M4 — Quan hệ chức năng và các nghiệp vụ liên thông
+   ========================================================= */
+.interaction-model{
+  display:grid;
+  grid-template-columns:1fr 48px 1fr 48px 1fr;
+  align-items:stretch;
+  gap:10px;
+  margin:28px 0;
+}
+.interaction-lane{
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:24px 20px;
+  background:#fff;
+}
+.interaction-lane.active{
+  background:linear-gradient(145deg,#f1f8fc,#e8f3f9);
+  border-color:#c8deeb;
+}
+.interaction-lane small,
+.source-box small,
+.result-box small{
+  display:block;
+  color:var(--blue);
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.12em;
+  margin-bottom:10px;
+}
+.interaction-lane b,
+.source-box b,
+.result-box b{
+  display:block;
+  font-size:18px;
+  margin-bottom:8px;
+}
+.interaction-lane span,
+.source-box span,
+.result-box span{
+  display:block;
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.5;
+}
+.interaction-arrow{
+  display:grid;
+  place-items:center;
+  color:#8aa6b8;
+  font-size:24px;
+}
+.journey-map{
+  margin-top:20px;
+}
+.source-box,.result-box{
+  width:64%;
+  margin:0 auto;
+  text-align:center;
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:20px;
+  background:#fff;
+}
+.result-box{
+  background:linear-gradient(145deg,#eef7fb,#e4f1f8);
+  border-color:#bfd9e8;
+}
+.vertical-link{
+  text-align:center;
+  color:#8aa6b8;
+  font-size:24px;
+  padding:7px 0;
+}
+.public-row{
+  display:grid;
+  grid-template-columns:1fr 70px 1fr;
+  align-items:center;
+  gap:14px;
+}
+.public-row .source-box{
+  width:100%;
+}
+.public-box{
+  min-height:125px;
+}
+.or{
+  text-align:center;
+  font-size:10px;
+  color:#7c919f;
+  font-weight:800;
+  letter-spacing:.1em;
+}
+.merge-links{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:84px;
+  margin:10px 12%;
+  color:#6c8596;
+  font-size:10px;
+  text-align:center;
+}
+.journey-row{
+  display:grid;
+  grid-template-columns:1fr 32px 1fr 32px 1fr 32px 1fr;
+  align-items:center;
+  gap:7px;
+  margin:30px 0;
+}
+.journey-row article{
+  min-height:135px;
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:18px 15px;
+}
+.journey-row article span,
+.entry-flow article span{
+  display:block;
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.1em;
+  color:var(--blue);
+  margin-bottom:12px;
+}
+.journey-row article b,
+.entry-flow article b{
+  display:block;
+  font-size:13px;
+  margin-bottom:6px;
+}
+.journey-row article small,
+.entry-flow article small{
+  display:block;
+  color:var(--muted);
+  font-size:10px;
+  line-height:1.45;
+}
+.journey-row i{
+  font-style:normal;
+  text-align:center;
+  color:#8aa6b8;
+  font-size:19px;
+}
+.dependency-table td:first-child{
+  font-weight:700;
+  color:#24465e;
+  width:205px;
+}
+.entry-flow{
+  display:grid;
+  grid-template-columns:1fr 42px 1.1fr 42px 1fr;
+  gap:10px;
+  align-items:stretch;
+  margin:18px 0 26px;
+}
+.entry-flow article{
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:18px;
+  min-height:140px;
+}
+.entry-flow article.selected{
+  background:linear-gradient(145deg,#eef7fb,#e4f1f8);
+  border-color:#c3ddea;
+}
+.entry-merge{
+  display:grid;
+  place-items:center;
+  color:#8aa6b8;
+  font-size:20px;
+}
+@media(max-width:1180px){
+  .interaction-model,.journey-row,.entry-flow,.public-row{grid-template-columns:1fr}
+  .interaction-arrow,.journey-row i,.entry-merge{transform:rotate(90deg)}
+  .source-box,.result-box{width:100%}
+  .merge-links{grid-template-columns:1fr;gap:8px;margin:10px}
+}
