@@ -29,3 +29,14 @@
 - Bổ sung Quản lý hồ sơ tuyển dụng.
 - Bổ sung Tiếp nhận đăng ký khám.
 - Bổ sung ma trận phụ thuộc chức năng.
+
+
+## M5
+- Hoàn thiện đặc tả các chức năng nội bộ.
+- Bổ sung Biên tập & xuất bản nội dung và quy trình phê duyệt.
+- Thiết kế lại Người dùng & phân quyền theo mô hình Vai trò + Vùng dữ liệu.
+- Vai trò chỉ xác định quyền chức năng.
+- Vùng dữ liệu xác định phạm vi dữ liệu và mức truy cập.
+- Bổ sung hai mức truy cập dữ liệu: Chỉ xem / Quản lý.
+- Bổ sung minh họa Quyền hiệu lực.
+- Bổ sung Điều hành, Báo cáo nội bộ, CTQLCSNB và Quản trị hệ thống.

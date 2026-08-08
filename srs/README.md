@@ -1,17 +1,20 @@
-# SRS - Giai đoạn 1 - M4
+# SRS - Giai đoạn 1 - M5
 
-Phiên bản 0.3 (Dự thảo)
+Phiên bản 0.4 (Dự thảo)
 
-M4 bổ sung và cập nhật:
-- Chương 4: Quan hệ giữa các nhóm chức năng.
-- Bản đồ chức năng tăng lên 11 nhóm cấp cao với Quản lý lịch khám.
-- Lịch khám công khai lấy dữ liệu từ Quản lý lịch khám.
-- Đăng ký khám có hai điểm khởi tạo:
-  1. Truy cập trực tiếp và bắt đầu từ đầu.
-  2. Khởi tạo từ một lịch khám đã chọn, giữ lại ngữ cảnh để giảm thao tác.
-- Tuyển dụng hỗ trợ nộp hồ sơ trực tuyến.
-- Bổ sung Quản lý hồ sơ tuyển dụng ở chức năng nội bộ.
-- Bổ sung Tiếp nhận đăng ký khám ở chức năng nội bộ.
-- Bổ sung ma trận phụ thuộc chức năng.
+M5 hoàn thiện các chức năng nội bộ còn lại và chuẩn hóa mô hình phân quyền:
+- Biên tập & xuất bản nội dung
+- Quy trình biên tập và phê duyệt
+- Người dùng & phân quyền
+- Vai trò
+- Vùng dữ liệu
+- Quyền hiệu lực
+- Điều hành
+- Báo cáo nội bộ
+- Báo cáo CTQLCSNB
+- Quản trị hệ thống
 
-Mở `index.html` để rà soát.
+Nguyên tắc phân quyền:
+- Vai trò trả lời “được làm gì?”
+- Vùng dữ liệu trả lời “được làm ở đâu?”
+- Vai trò và Vùng dữ liệu được quản lý độc lập.
